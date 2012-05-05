@@ -42,6 +42,11 @@ li {
 	margin-bottom: 0.5em;
 }
 
+pre code {
+	font-family: 'Menlo', 'Droid Sans Mono', 'Andale Mono', courier, monospace;
+	font-size: small;
+}
+
 /* Divs */
 
 .callout {
@@ -53,6 +58,12 @@ li {
 	-webkit-border-radius: .5em; 
 	-moz-border-radius: .5em;
 	border-radius: .5em;
+}
+
+.highlight {
+	border-left: 4px solid #555753; /* aluminum5 */
+	padding: 0 1em;
+	margin-bottom: 0.5em;
 }
 
 /* Spans */
