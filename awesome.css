@@ -1,8 +1,13 @@
 /* General */
 
+html {
+	height: 100%;
+}
+
 body {
 	margin: 0;
 	font-family: 'Open Sans', 'Droid Sans', verdana, sans-serif;
+	height: 100%;
 	background: #555753;
 }
 
@@ -30,11 +35,6 @@ h2 {
 	color: #4e9a06; /* chameleon3 */
 	border-bottom: 3px solid #8ae234; /* chameleon1 */
 	font-size: 1.2em;
-}
-
-em {
-	font-weight: bold;
-	font-style: normal;
 }
 
 li {
@@ -66,6 +66,64 @@ pre code {
 	margin-bottom: 0.5em;
 }
 
+.bigparagraph {
+	font-size: 1.3em;
+}
+
+.item-left {
+	width: 80%;
+	margin: 1em auto 0 0;
+	text-align: left;
+}
+
+.item-right {
+	width: 80%;
+	margin: 1em 0 0 auto;
+	text-align: right;
+}
+
+.box {
+	width: 45%;
+	margin: 1em 1em 0 0;
+	vertical-align: top;
+	display: inline-block;
+}
+
+.medium-title {
+	font-weight: bold;
+	letter-spacing: -0.03em;
+	font-size: 1.5em;
+	margin-bottom: 0;
+}
+
+.small-para {
+	font-size: 0.8em;
+}
+
+.tag-list {
+	margin-top: 0;
+}
+
+.thumbnail {
+	max-width: 20%;
+	padding: 5px;
+	border: 1px solid #555753; /* aluminum5 */
+	box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.3);
+}
+
+.float-left {
+	float: left;
+}
+
+.float-right {
+	float: right;
+}
+
+.bigbutton-area {
+	text-align: center;
+	margin: 2em 0;
+}
+
 /* Spans */
 
 .note {
@@ -74,102 +132,167 @@ pre code {
 	color: #888a85;
 }
 
-/* Specific divs on the page */
-
-#background {
-	background: #fff;
+.tag {
+	font-size: 80%;
+	background: #e9b96e; /* chocolate1 */
+	padding: 0 3px;
+	margin: 0;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
 }
 
-#header h1 {
+/* Specific layout elements on the page */
+
+.header {
 	font-family: 'Open Sans', 'Droid Sans', verdana, sans-serif;
-	margin: 1em 0 0;
+	padding: 1em 0 0.3em 1em;
 	font-weight: bold;
 	font-size: 60px;
 	letter-spacing: -0.03em;
-	border: none;
-	display: block;
-	color: black;
+	color: white;
+	background: indigo;
+	margin: 0;
 }
 
-#main.menu {
-	background-color: #5c3566;
-	border: 0.1px solid #5c3566;
-}
-
-#main.menu p {
-	color: #ad7fa8;
-}
-
-#main.menu li {
-	font-size: 12pt;
-	text-transform: uppercase;
-}
-
-div.menu {
+.menu {
 	text-align: center;
 	background-color: #204a78;
 	border: 1px solid #204a78;
+	margin: 0 0 10px 0;
+	-webkit-box-shadow: 0 5px 2px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 5px 2px rgba(0,0,0,.2);
+	box-shadow: 0 5px 2px rgba(0,0,0,.2);
 }
 
-div.menu p {
+.menu p {
 	display: inline;
 	color: #729fcf;
 }
 
-div.menu a {
+.menu a {
 	color: white;
 }
 
-div.menu ul {
+.menu ul {
 	list-style-type: none;
 	padding: 0;
 	display: inline;
 }
 
-div.menu li {
+.menu li {
 	font-size: 24pt;
 	display: inline;
 	padding: 0 0.5em;
 	letter-spacing: -0.03em;
 }
 
-div.menu .current {
+.menu .current {
 	font-weight: bold;
 }
 
-#container {
-	padding-bottom: 4em;
-	width: 42em;
-	margin: 0 auto;
+/* Main menu */
+.main {
+	background-color: #5c3566;
+	border: 0.1px solid #5c3566;
+	margin: 0;
 }
 
-#content {
-	margin: 0;
+.main p {
+	color: #ad7fa8;
+}
+
+.main li {
+	font-size: 12pt;
+	text-transform: uppercase;
+}
+
+.background {
+	width: 100%;
+	background: white;
+}
+
+.content {
+	padding-bottom: 4em;
+	width: 42em;
+	margin: 2em auto 0;
 	text-align: justify;
 }
 
-#bigbuttons {
-	margin: 3em 0;
-    text-align: center;
+.license {
+	font-size: x-small;
+	font-style: italic;
+	margin: 0;
 }
 
+.footer {
+	border-top: 3px solid #204a87;
+	margin-bottom: auto;
+}
+
+.footer p {
+	text-align: center;
+	font-size: small;
+	color: #babdb6;
+}
+
+.footer a {
+	color: #babdb6;
+	border-bottom: 1px dotted;
+}
+
+.footer a:hover {
+	text-decoration: none;
+	border-bottom: 1px solid;
+}
+
+/* Button classes. Use "button bigbutton redbutton" to make a big red button,
+for example. */
 /* Nice button tutorial:
 http://webdesignerwall.com/tutorials/css3-gradient-buttons */
-a.bigbutton {
+
+.button {
+	cursor: pointer;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+	-moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+	box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+	border: 1px solid;
+}
+
+.button:hover {
+	text-decoration: none;
+}
+
+.button:active {
+	position: relative;
+	top: 1px;
+}
+
+.morebutton {
+	padding: 0 0.5em;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.morebutton:after {
+	content: " »";
+}
+
+.bigbutton {
     font-size: 32px;
-    color: black;
 	min-width: 18.2em;
 	padding: 1em;
 	margin: 0.5em;
-	cursor: pointer;
-	text-shadow: 0 1px 1px rgba(0,0,0,.3);
-    border: 1px solid #555753; /* aluminum5 */
 	-webkit-border-radius: .5em;
 	-moz-border-radius: .5em;
 	border-radius: .5em;
-	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
-	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
-	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+
+.graybutton {
+    color: black;
+    border-color: #555753; /* aluminum5 */
 	background: #babdb6; /* aluminum3 */
 	background: -webkit-gradient(linear, left top, left bottom, from(white), to(#babdb6));
 	background: -webkit-linear-gradient(top, white, #babdb6);
@@ -179,9 +302,8 @@ a.bigbutton {
 	background: linear-gradient(to bottom, white, #babdb6);
 }
 
-a.bigbutton:hover {
-    text-decoration: none;
-    border: 1px solid #555753; /* aluminum5 */
+.graybutton:hover {
+    border-color: #555753; /* aluminum5 */
     background: #888a85; /* aluminum4 */
 	background: -webkit-gradient(linear, left top, left bottom, from(#eeeeec), to(#888a85));
 	background: -webkit-linear-gradient(top, #eeeeec, #888a85);
@@ -191,12 +313,7 @@ a.bigbutton:hover {
 	background: linear-gradient(to bottom, #eeeeec, #888a85);
 }
 
-a.bigbutton:active {
-	position: relative;
-	top: 1px;
-}
-
-a.redbutton {
+.redbutton {
     color: white;
     border-color: #ef2929;
 	background: #cc0000;
@@ -208,7 +325,7 @@ a.redbutton {
 	background: linear-gradient(to bottom, #d41e1e, #a40000);
 }
 
-a.redbutton:hover {
+.redbutton:hover {
     border-color: #ef2929;
     background: #b60000;
 	background: -webkit-gradient(linear, left top, left bottom, from(#cc0000), to(#910000));
@@ -219,28 +336,24 @@ a.redbutton:hover {
 	background: linear-gradient(to bottom, #cc0000, #910000);
 }
 
-#license {
-	font-size: x-small;
-	font-style: italic;
-	margin: 0;
+.bluebutton {
+	color: white;
+	border-color: #729fcf; /* skyblue3 */
+	background: #3465a4; /* skyblue2 */
+	background: -webkit-gradient(linear, left top, left bottom, from(#4485da), to(#3465a4));
+	background: -webkit-linear-gradient(top, #4485da, #3465a4);
+	background: -moz-linear-gradient(top, #4485da, #3465a4);
+	background: -ms-linear-gradient(top, #4485da, #3465a4);
+	background: -o-linear-gradient(top, #4485da, #3465a4);
+	background: linear-gradient(top, #4485da, #3465a4);
 }
 
-#footer {
-	border-top: 3px solid #204a87;
-}
-
-#footer p {
-	text-align: center;
-	font-size: small;
-	color: #babdb6;
-}
-
-#footer a {
-	color: #babdb6;
-	border-bottom: 1px dotted;
-}
-
-#footer a:hover {
-	text-decoration: none;
-	border-bottom: 1px solid;
+.bluebutton:hover {
+	background: #204a87; /* skyblue1 */
+	background: -webkit-gradient(linear, left top, left bottom, from(#2966bf), to(#204a87));
+	background: -webkit-linear-gradient(top, #2966bf, #204a87);
+	background: -moz-linear-gradient(top, #2966bf, #204a87);
+	background: -ms-linear-gradient(top, #2966bf, #204a87);
+	background: -o-linear-gradient(top, #2966bf, #204a87);
+	background: linear-gradient(to bottom, #2966bf, #204a87);
 }

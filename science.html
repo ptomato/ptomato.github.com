@@ -1,0 +1,28 @@
+---
+layout: default
+section: Science
+title: Science
+projects:
+  - name: Narrowband CARS spectroscopy
+    synopsis: skldflksa sdllksdj sldkfj weoi sjfh sdj lfksdjg sdkj, dskajhf lsdkjfdsl dsjf ae fsjk fkahen. sldfkgniore sdkfn sadfnc. inr reoim rewin cjksndc ioercna coiwrn sldn ociwnvw owiempqw lkdsalc wopecn pweocj pweocj dknc wecn qapi sdnc pweoij sdicj dscnz,mx
+    image: images/cars-thumbnail.jpg
+  - name: Plasmonic Beam Tomography
+    synopsis: fvvn oiewrvveklr sgkmeroi dfln fcvern veirj eorij rvrk. ari eronv eorinverv as;dklm eripp piorewv veijrviore kdflkds sdlifjewio sdlfjeir dslkjf oien eirjerijv oerijfn <a href="dslfj">dfneiornv</a> voeirnernnv,f
+---
+
+{% for item in page.projects reversed %}
+  <div>
+
+    {% if item.image %}
+      <img class="thumbnail {% cycle 'float-right', 'float-left' %}" src="{{ item.image }}"/>
+    {% else %}
+      <p class="{% cycle 'float-right', 'float-left' %}"></p> <!-- empty -->
+    {% endif %}
+
+    <div class="{% cycle 'item-left', 'item-right' %}">
+      <p class="medium-title">{{ item.name }}</p>
+      <p>{{ item.synopsis }}</p>
+    </div>
+
+  </div>
+{% endfor %}

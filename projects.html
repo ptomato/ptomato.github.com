@@ -1,0 +1,73 @@
+---
+layout: default
+section: Open Source Projects
+title: Projects
+projects:
+  - name: Inform 7
+    website: http://inform7.com
+    icon: images/inform7.png
+    synopsis: test test
+    tags: ['C', 'GTK']
+  - name: Chimara
+    website: http://www.chimara-if.org
+    synopsis: flskjdgk skljfdls kjfklds ajflkdsajfl awefds lkds ds ldsjflsdkafjldks
+    tags: ['C', 'GTK', 'Glk']
+  - name: Beams
+    page: beams
+    tags: ['Python', 'SciPy', 'Traits']
+    synopsis: A camera controller and laser beam profiler that also works on cheap webcams. Commercial laser beam profilers are expensive although they perform fairly simple calculations and often have horrible user interfaces. An open-source solution designed for inexpensive hardware benefits optics researchers, engineers, and hobbyists everywhere.
+  - name: REP
+    tags: ['Python', 'NumPy', 'VISA']
+    synopsis: sdfkldfj
+  - name: Advanced GTK Techniques
+    synopsis: fsdfdfkldjs
+    tags: ['C', 'Mallard']
+  - name: Pythonic Meep
+    synopsis: dsflkjdlfks
+    tags: ['Python', 'C++', 'NumPy']
+  - name: Osxcart
+    synopsis: Pronounced "ox cart", nvcm, n, msdnsdflksj
+    tags: ['C', 'XML', 'GLib']
+  - name: GoogleDocs2LaTeX
+    synopsis: This one is in need of a better name. slkdf jgdlskfg nrpe jks dnfjlk
+    tags: ['Vala', 'XSLT', 'GTK', 'LaTeX']
+---
+<p>
+  This is a list of the open source projects that I work on.
+</p>
+
+{% for item in page.projects %}
+<div class="box">
+  <p class="medium-title">
+    {% if item.icon %}
+      <img src="{{ item.icon }}"/>
+    {% endif %}
+    {% if item.website %}
+      <a href="{{ item.website }}" target="_blank">{{ item.name }}</a>
+    {% else %}
+      {{ item.name }}
+    {% endif %}
+  </p>
+
+  <!-- Tags -->
+  <p class="tag-list">
+    {% for tag in item.tags %}
+      <span class="tag">{{ tag }}</span>
+    {% endfor %}
+  </p>
+
+  <p class="small-para">{{ item.synopsis }}</p>
+
+  <!-- "Read more", "Go to website" buttons -->
+  {% if item.website or item.page %}
+    <p>
+      {% if item.website %}
+        <a href="{{ item.website }}" target="_blank" class="button morebutton bluebutton">Go to website</a>
+      {% else %}
+        <a href="{{ item.page }}.html" class="button morebutton bluebutton">Read more</a>
+      {% endif %}
+    </p>
+  {% endif %}
+
+</div>
+{% endfor %}
