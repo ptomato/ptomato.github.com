@@ -14,13 +14,16 @@ projects:
     tags: ['C', 'GTK', 'Glk']
   - name: Beams
     page: beams
+    tagline: A laser beam profiler that also works on cheap webcams
     tags: ['Python', 'SciPy', 'Traits']
-    synopsis: A camera controller and laser beam profiler that also works on cheap webcams. Commercial laser beam profilers are expensive although they perform fairly simple calculations and often have horrible user interfaces. An open-source solution designed for inexpensive hardware benefits optics researchers, engineers, and hobbyists everywhere.
+    synopsis: Commercial laser beam profilers are expensive although they perform fairly simple calculations and often have horrible user interfaces. An open-source solution designed for inexpensive hardware benefits optics researchers, engineers, and hobbyists everywhere.
   - name: REP
     tags: ['Python', 'NumPy', 'VISA']
     synopsis: sdfkldfj
   - name: Advanced GTK Techniques
-    synopsis: fsdfdfkldjs
+    page: advanced-gtk-techniques
+    tagline: A tutorial for advanced GTK programming
+    synopsis: This tutorial is written for people who have passed the stage of learning how to build user interfaces with GTK, and want to know how to program more advanced, real-world applications.
     tags: ['C', 'Mallard']
   - name: Pythonic Meep
     synopsis: dsflkjdlfks
@@ -48,6 +51,9 @@ projects:
       {{ item.name }}
     {% endif %}
   </p>
+  {% if item.tagline %}
+    <p class="tagline">{{ item.tagline }}</p>
+  {% endif %}
 
   <!-- Tags -->
   <p class="tag-list">

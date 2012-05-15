@@ -121,7 +121,13 @@ pre code {
 
 .bigbutton-area {
 	text-align: center;
-	margin: 2em 0;
+	margin: 3em 0;
+}
+
+.tagline {
+	margin-top: 0;
+	margin-bottom: 0;
+	text-align: left;
 }
 
 /* Spans */
