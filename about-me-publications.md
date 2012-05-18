@@ -45,7 +45,7 @@ articles:
     number: 24
     pages: 24219‒24227
     doi: 10.1364/OE.19.024219
-    cited: 0
+    cited: 1
 proceedings:
   - authors:
     - Chimento, P. F.
