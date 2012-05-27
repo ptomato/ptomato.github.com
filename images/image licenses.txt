@@ -1,0 +1,3 @@
+windows.png - Jason LaRose, public domain (iconfinder.com)
+package.png - Tango icon set
+manual.png - Gnome icon set
