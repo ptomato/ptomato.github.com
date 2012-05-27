@@ -19,7 +19,7 @@ articles:
     issue: 40
     pages: 1229‒1233
     doi: 10.1002/jrs.2267
-    cited: 7
+    cited: 8
   - authors:
     - Chimento, P. F.
     - ’t Hooft, G. W.
@@ -45,7 +45,7 @@ articles:
     number: 24
     pages: 24219‒24227
     doi: 10.1364/OE.19.024219
-    cited: 1
+    cited: 2
 proceedings:
   - authors:
     - Chimento, P. F.
