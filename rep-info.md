@@ -15,7 +15,7 @@ github-name: REP-instrumentation
 Not all functionality of each device is available.
 I programmed **REP** according to my own needs in the lab.
 
-# Will you add device X? #
+# Will you add the Frobnitz StuffMeasurer 3000? #
 
 Short answer: **yes, for money.**
 
