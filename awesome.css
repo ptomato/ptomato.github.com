@@ -292,6 +292,15 @@ http://webdesignerwall.com/tutorials/css3-gradient-buttons */
 	top: 1px;
 }
 
+.smallbutton {
+	font-size: 24px;
+	margin: 0.25em;
+	padding: 0 0.5em;
+	-webkit-border-radius: .5em;
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+}
+
 .morebutton {
 	padding: 0 0.5em;
 	-webkit-border-radius: 5px;
@@ -379,4 +388,14 @@ http://webdesignerwall.com/tutorials/css3-gradient-buttons */
 	background: -ms-linear-gradient(top, #2966bf, #204a87);
 	background: -o-linear-gradient(top, #2966bf, #204a87);
 	background: linear-gradient(to bottom, #2966bf, #204a87);
+}
+
+.tanbutton {
+	color: black;
+	border-color: #8f5902; /* chocolate3 */
+	background: #c17d11; /* chocolate2 */
+}
+
+.tanbutton:hover {
+	background: #e9b96e; /* chocolate1 */
 }
