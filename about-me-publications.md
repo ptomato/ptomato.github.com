@@ -113,6 +113,7 @@ posters:
     venue: MESA+ Institute for Nanotechnology annual meeting
     date: September 11, 2007
     place: Enschede, Netherlands
+    presenter: Martin Jurna
   - authors:
     - Chimento, P. F.
     - Jurna, M.
@@ -203,7 +204,7 @@ posters:
     venue: 3rd International Topical Meeting on Nanophotonics and Metamaterials.
     date: January 3‒6, 2011
     place: Tirol, Austria
-    note: Presented by Eric Eliel.
+    presenter: Eric Eliel
   - authors:
     - Chimento, P. F.
     - ’t Hooft, G. W.
@@ -275,6 +276,7 @@ _{{ item.title }}._
 _{{ item.title }}._
 {{ item.venue }}.
 {{ item.date }}, {{ item.place }}.
+{% if item.presenter %}(Presented by {{ item.presenter }}.){% endif %}
 {% if item.note %}({{ item.note }}){% endif %}
 
 {% endfor %}
