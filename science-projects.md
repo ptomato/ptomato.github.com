@@ -9,6 +9,7 @@ projects:
     image: images/cars-thumbnail.jpg
   - name: Teaching LabVIEW
     synopsis: inerv aepiv as.df awoerpja afdher aubwe m,cznv awoiuebrv smdn ;dflgka ageo ndflka ahbwefa fd.,bmpse aseoribn mxfnover mnvs,m, ajvbrv owewq vms apkn akrvnm.xcm, c,mvx
+    image: images/labview-thumbnail.png
   - name: Plasmonic beam tomography
     synopsis: fvvn oiewrvveklr sgkmeroi dfln fcvern veirj eorij rvrk. ari eronv eorinverv as;dklm eripp piorewv veijrviore kdflkds sdlifjewio sdlfjeir dslkjf oien eirjerijv oerijfn <a href="dslfj">dfneiornv</a> voeirnernnv,f
   - name: Plasmonic quarter-wave plate
