@@ -1,0 +1,22 @@
+---
+layout: default
+section: Science
+title: Projects
+menu_pages: ['Home', 'Projects']
+---
+{% for item in site.categories.science %}
+  <div>
+
+    {% if item.image %}
+      <img class="thumbnail {% cycle 'float-right', 'float-left' %}" src="{{ item.image }}"/>
+    {% else %}
+      <p class="{% cycle 'float-right', 'float-left' %}"></p> <!-- empty -->
+    {% endif %}
+
+    <div class="{% cycle 'item-left', 'item-right' %}">
+      <p class="medium-title">{{ item.title }}</p>
+      <p>{{ item.content }}</p>
+    </div>
+
+  </div>
+{% endfor %}
