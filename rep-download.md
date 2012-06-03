@@ -4,6 +4,7 @@ section: REP
 title: Download
 menu_pages: ['Home', 'Info', 'Manual', 'Download']
 github-name: REP-instrumentation
+use-syntax-highlighting: yes
 ---
 <p class="callout">
 Download the <strong>REP</strong> package:<br/>
