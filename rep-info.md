@@ -2,7 +2,7 @@
 layout: github
 section: REP
 title: Info
-menu_pages: ['Home', 'Info', 'Manual', 'Download']
+menu_pages: ['Home', 'Info']
 github-name: REP-instrumentation
 ---
 # What devices can REP control? #
