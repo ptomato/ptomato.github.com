@@ -1,8 +1,8 @@
 ---
 layout: default
-section: About Me
+section: Science
 title: Publications
-menu_pages: ['Skills', 'Bio', 'Resume', 'Publications']
+menu_pages: ['Projects', 'Research Explained', 'Publications']
 articles:
   - authors:
     - Chimento, P. F.
