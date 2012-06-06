@@ -1,3 +1,4 @@
 source: .
 destination: ./_site
 title: Philip Chimento
+pygments: true
