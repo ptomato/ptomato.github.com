@@ -8,7 +8,7 @@ menu_pages: ['Home', 'Projects']
   <div>
 
     {% if item.image %}
-      <img class="thumbnail {% cycle 'float-right', 'float-left' %}" src="{{ item.image }}"/>
+      <img class="thumbnail {% cycle 'float-right', 'float-left' %}" src="/images/{{ item.image }}"/>
     {% else %}
       <p class="{% cycle 'float-right', 'float-left' %}"></p> <!-- empty -->
     {% endif %}

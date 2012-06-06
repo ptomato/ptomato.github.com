@@ -11,7 +11,7 @@ title: Projects
 <div class="box">
   <p class="medium-title">
     {% if item.icon %}
-      <img src="{{ item.icon }}"/>
+      <img src="/images/{{ item.icon }}"/>
     {% endif %}
     {% if item.website %}
       <a href="{{ item.website }}" target="_blank">{{ item.name }}</a>
@@ -38,7 +38,7 @@ title: Projects
       {% if item.website %}
         <a href="{{ item.website }}" target="_blank" class="button morebutton bluebutton">Go to website</a>
       {% else %}
-        <a href="{{ item.page }}.html" class="button morebutton bluebutton">Read more</a>
+        <a href="/opensource/{{ item.page }}/{{ item.page }}.html" class="button morebutton bluebutton">Read more</a>
       {% endif %}
     </p>
   {% endif %}

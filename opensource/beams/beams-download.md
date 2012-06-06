@@ -7,7 +7,7 @@ github-name: Beams
 ---
 
 <p class="callout">
-  Download the <strong>Beams</strong> package: <a class="source-download" href="downloads/Beams-20120216.zip">Beams-20120216.zip</a>
+  Download the <strong>Beams</strong> package: <a class="source-download" href="/downloads/Beams-20120216.zip">Beams-20120216.zip</a>
 </p>
 
 # The camera #
