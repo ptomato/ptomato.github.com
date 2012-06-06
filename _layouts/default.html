@@ -25,7 +25,8 @@
         <ul>
           {% for item in page.menu_pages %}
           <li {% if page.title == item %}class="current"{% endif %}>
-            <a href="{{ page.section | downcase | replace:' ','-' }}{% if item != 'Home' %}-{{ item | downcase | replace:' ','-' }}{% endif %}.html">{{ item }}</a>
+            {% capture page_name %}{{ page.section | handleize }}{% if item != 'Home' %}-{{ item | handleize }}{% endif %}.html{% endcapture %}
+            {{ item | link_to: page_name }}
           </li>
           {% endfor %}
         </ul>
