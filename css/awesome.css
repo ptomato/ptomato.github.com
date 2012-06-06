@@ -151,18 +151,18 @@ pre code {
 /* Little ornamental icons (32x32) */
 
 .source-download:before {
-	content: url(images/package.png) " ";
+	content: url(/images/package.png) " ";
 	vertical-align: -20%; /* tweak */
 }
 
 .windows-download:before {
-	content: url(images/windows.png) " ";
+	content: url(/images/windows.png) " ";
 	vertical-align: -20%; /* tweak */
 }
 
 .manual-link:before {
-	content: url(images/manual.png) " ";
-	vertical-align: -20% /* tweak */;
+	content: url(/images/manual.png) " ";
+	vertical-align: -20%; /* tweak */
 }
 
 /* Specific layout elements on the page */
@@ -176,7 +176,7 @@ pre code {
 	color: white;
 	background: black;
 	margin: 0;
-	background-image: url('images/header.png');
+	background-image: url('/images/header.png');
 }
 
 .menu {
