@@ -237,7 +237,7 @@ Space is cheap on the internet though, and this is just as much a record for mys
 ({{ item.year }}).
 {{ item.title }}.
 _{{ item.journal }}_
-**{{ item.issue }}**{% if item.number %} ({{ item.number }}){% endif %}, {{ item.pages }}.
+_{{ item.issue }}_{% if item.number %} ({{ item.number }}){% endif %}, {{ item.pages }}.
 [doi:{{ item.doi }}](http://dx.doi.org/{{ item.doi }})
 {% if item.note %}({{ item.note }}){% endif %} {% if item.cited > 0 %}<span class="tag">Cited {{ item.cited }} time{% if item.cited != 1 %}s{% endif %}</span>{% endif %}
 
