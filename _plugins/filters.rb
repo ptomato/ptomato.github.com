@@ -36,5 +36,9 @@ module Jekyll
 			initials = firstpart.gsub(/([[:upper:]])[a-zé]+/, '\1.')
 			initials + ' ' + lastname
 		end
+
+		def bold_if_contains(text, substring)
+			(text.include? substring) ? "**" + text + "**" : text
+		end
 	end
 end
