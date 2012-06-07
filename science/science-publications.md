@@ -2,7 +2,7 @@
 layout: default
 section: Science
 title: Publications
-menu_pages: ['Projects', 'Research Explained', 'Publications']
+menu_pages: ['Projects', 'What Is...?', 'Publications']
 articles:
   - authors:
     - Chimento, Philip F.
