@@ -4,4 +4,4 @@ section: Science
 menu_pages: ['Home', 'Projects']
 title: Spin-orbit coupling in subwavelength apertures
 ---
-lsknvoin aerpoi aovin jken qpworun kdnfmdns wdsklf sjnbbvuewo vinre rv inver reaoibv
+I am working on a demonstration of spin angular momentum being converted into orbital angular momentum in a plasmonic nanostructure, making use of a little-known property of subwavelength slits in a metal layer.

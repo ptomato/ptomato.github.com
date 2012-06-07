@@ -5,4 +5,4 @@ menu_pages: ['Home', 'Projects']
 title: Narrowband CARS spectroscopy
 image: cars-thumbnail.jpg
 ---
-skldflksa sdllksdj sldkfj weoi sjfh sdj lfksdjg sdkj, dskajhf lsdkjfdsl dsjf ae fsjk fkahen. sldfkgniore sdkfn sadfnc. inr reoim rewin cjksndc ioercna coiwrn sldn ociwnvw owiempqw lkdsalc wopecn pweocj pweocj dknc wecn qapi sdnc pweoij sdicj dscnz,mx
+I worked with coherent anti-Stokes Raman scattering for the purposes of recording vibrational spectra of molecules down to 900 cm<sup>-1</sup>.
