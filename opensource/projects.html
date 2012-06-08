@@ -8,7 +8,7 @@ title: Projects
 </p>
 
 {% for item in site.categories.opensource reversed %}
-<div class="box">
+<div class="box" id="{{ item.name | handleize }}">
   <p class="medium-title">
     {% if item.icon %}
       <img src="/images/{{ item.icon }}"/>
