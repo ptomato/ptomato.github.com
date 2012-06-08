@@ -4,7 +4,8 @@ section: Open Source Projects
 title: Projects
 ---
 <p>
-  This is a list of the open source projects that I work on.
+  This is a list of the open source projects that I wrote.
+  There are <a href="https://www.ohloh.net/accounts/ptomato/positions">others</a> that I didn't write myself but have contributed to.
 </p>
 
 {% assign latex = '<span class="latex-nonsense"><span class="kern">L</span><sup>A</sup><span class="kern">T</span><sub>E</sub>X</span>' %}
@@ -18,6 +19,8 @@ title: Projects
     {% endif %}
     {% if item.website %}
       <a href="{{ item.website }}" target="_blank">{{ item.name }}</a>
+    {% elsif item.page %}
+      <a href="/opensource/{{ item.page }}/{{ item.page }}.html">{{ item.name }}</a>
     {% else %}
       {{ item.name }}
     {% endif %}
