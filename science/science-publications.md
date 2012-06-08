@@ -280,3 +280,11 @@ _{{ item.title }}._
 {% if item.note %}({{ item.note }}){% endif %}
 
 {% endfor %}
+
+# Various #
+
+**P. F. Chimento** & E. R. Eliel (2011). _Interference, diffraction, and birefringence with plasmonics._ Oral presentation, second progress meeting of FOM Plasmonics project. June 16, 2011, Amsterdam, Netherlands.
+
+**P. F. Chimento**, G. W. ’t Hooft, & E. R. Eliel (2011). _Two-dimensional optics._ Oral presentation, qualifying round of the Netherlands Physical Society Young Speakers’ Contest. March 16, 2011, Amsterdam, Netherlands.
+
+**P. F. Chimento** & E. R. Eliel (2009). _A cabinet of plasmonic curiosities._ Oral presentation, first progress meeting of FOM Plasmonics project. December 15, 2009, Amsterdam, Netherlands.
