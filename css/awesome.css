@@ -148,6 +148,15 @@ pre code {
 	border-radius: 3px;
 }
 
+.latex-nonsense sup {
+	font-size: 80%;
+	vertical-align: 15%;
+}
+
+.latex-nonsense .kern {
+	letter-spacing: -1pt;
+}
+
 /* Little ornamental icons (32x32) */
 
 .source-download:before {

@@ -7,6 +7,9 @@ title: Projects
   This is a list of the open source projects that I work on.
 </p>
 
+{% assign latex = '<span class="latex-nonsense"><span class="kern">L</span><sup>A</sup><span class="kern">T</span><sub>E</sub>X</span>' %}
+<!--How to do this without duplicating the HTML in _includes/latex.html?-->
+
 {% for item in site.categories.opensource reversed %}
 <div class="box" id="{{ item.name | handleize }}">
   <p class="medium-title">
@@ -20,13 +23,13 @@ title: Projects
     {% endif %}
   </p>
   {% if item.tagline %}
-    <p class="tagline">{{ item.tagline }}</p>
+    <p class="tagline">{{ item.tagline | replace: 'LaTeX', latex }}</p>
   {% endif %}
 
   <!-- Tags -->
   <p class="tag-list">
     {% for tag in item.tags %}
-      <span class="tag">{{ tag }}</span>
+      <span class="tag">{{ tag | replace: 'LaTeX', latex }}</span>
     {% endfor %}
   </p>
 
