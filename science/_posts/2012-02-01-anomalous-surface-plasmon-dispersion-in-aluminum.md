@@ -3,5 +3,7 @@ layout: science
 section: Science
 menu_pages: ['Projects', 'What Is...?', 'Publications']
 title: Anomalous surface plasmon dispersion in aluminum
+image: kretschmann.png
 ---
-e;oesrin fndfl scein rinvrvn ierwngdfm irejv dfslkj virnev cxmn,v worinv nv vaowie asa ovwin
+Work in progress: I am manufacturing aluminum layers that support surface plasmons which travel faster as their frequency increases.
+That's called _anomalous dispersion_ (anomalous, because usually it's slower) and it's used as the basis for all kinds of nifty effects.
