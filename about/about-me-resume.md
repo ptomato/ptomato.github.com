@@ -5,4 +5,10 @@ title: Resume
 menu_pages: ['Skills', 'Bio', 'Resume']
 ---
 
-Test test
+# Career goal #
+
+Right now, I'm looking for a job.
+
+# Professional experience #
+
+# Side projects #
