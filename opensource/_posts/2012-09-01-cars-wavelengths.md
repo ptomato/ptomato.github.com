@@ -1,5 +1,6 @@
 ---
 name: CARS Wavelengths
+github-name: CARS-Wavelengths
 tagline: Calculate the wavelengths in a coherent anti-Stokes Raman process
 tags: ['C', 'GTK']
 ---

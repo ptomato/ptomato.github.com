@@ -40,13 +40,18 @@ How to do this without duplicating the HTML in _includes/latex.html?
 
   <div class="small-para">{{ item.content }}</div>
 
-  <!-- "Read more", "Go to website" buttons -->
-  {% if item.website or item.page %}
+  <!-- "Read more", "Go to website", "Github" buttons -->
+  {% if item.website or item.page or item.github-name or item.repository %}
     <p>
       {% if item.website %}
         <a href="{{ item.website }}" target="_blank" class="button morebutton bluebutton">Go to website</a>
-      {% else %}
+      {% elsif item.page %}
         <a href="/opensource/{{ item.page }}/{{ item.page }}.html" class="button morebutton bluebutton">Read more</a>
+      {% endif %}
+      {% if item.github-name %}
+        <a href="https://github.com/ptomato/{{ item.github-name }}" target="_blank" class="button morebutton graybutton">View on GitHub</a>
+      {% elsif item.repository %}
+        <a href="{{ item.repository }}" target="_blank" class="button morebutton graybutton">See the code</a>
       {% endif %}
     </p>
   {% endif %}

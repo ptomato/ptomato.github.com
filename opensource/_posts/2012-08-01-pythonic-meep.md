@@ -1,5 +1,6 @@
 ---
 name: Pythonic Meep
+github-name: Pythonic-Meep
 tagline: Python bindings for Meep that you can actually use
 tags: ['Python', 'C++', 'NumPy']
 ---
