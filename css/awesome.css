@@ -47,6 +47,11 @@ pre code {
 	font-size: small;
 }
 
+sup, sub {
+	line-height: 0;
+	font-size: 80%;
+}
+
 /* Divs */
 
 .callout {
@@ -94,10 +99,12 @@ pre code {
 	letter-spacing: -0.03em;
 	font-size: 1.5em;
 	margin-bottom: 0;
+	text-align: left;
 }
 
 .small-para {
 	font-size: 0.8em;
+	text-align: left;
 }
 
 .tag-list {
@@ -149,7 +156,7 @@ pre code {
 }
 
 .latex-nonsense sup {
-	font-size: 80%;
+	line-height: normal;
 	vertical-align: 15%;
 }
 
