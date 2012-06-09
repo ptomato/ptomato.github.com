@@ -5,7 +5,7 @@ title: Projects
 menu_pages: ['Projects', 'What Is...?', 'Publications']
 ---
 {% for item in site.categories.science %}
-  <div>
+  <div id="{{ item.title | handleize }}">
 
     {% if item.image %}
       <img class="thumbnail {% cycle 'float-right', 'float-left' %}" src="/images/{{ item.image }}"/>
