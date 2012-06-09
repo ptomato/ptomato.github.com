@@ -318,7 +318,7 @@ http://webdesignerwall.com/tutorials/css3-gradient-buttons */
 	border-radius: .5em;
 }
 
-.morebutton {
+.morebutton, .backbutton {
 	padding: 0 0.5em;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
@@ -327,6 +327,10 @@ http://webdesignerwall.com/tutorials/css3-gradient-buttons */
 
 .morebutton:after {
 	content: " »";
+}
+
+.backbutton:before {
+	content: "« ";
 }
 
 .bigbutton {

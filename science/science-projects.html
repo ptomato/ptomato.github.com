@@ -15,7 +15,11 @@ menu_pages: ['Projects', 'What Is...?', 'Publications']
 
     <div class="{% cycle 'item-left', 'item-right' %}">
       <p class="medium-title">{{ item.title }}</p>
-      <p>{{ item.content }}</p>
+      <p>{{ item.content | first }}</p>
+      {% capture rest %}{{ item.content | tail }}{% endcapture %}
+      {% if rest != '' %}
+        <a class="button bluebutton morebutton" href="{{ item.url }}">Read more</a>
+      {% endif %}
     </div>
 
   </div>

@@ -41,6 +41,11 @@ module Jekyll
 			(text.include? substring) ? "**" + text + "**" : text
 		end
 
+		# Return all the paragraphs of an HTML string except the first one
+		def tail(text)
+			text.split(%r{</p>\s+}, 2)[1]
+		end
+
 		# Print out to the terminal for debugging
 		def debug(text)
 			puts text

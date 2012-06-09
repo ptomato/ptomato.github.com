@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: science
 section: Science
-menu_pages: ['Home', 'Projects']
+menu_pages: ['Projects', 'What Is...?', 'Publications']
 title: Scientific computing with Python
 ---
 The future of lightweight scientific computing lies in open source.

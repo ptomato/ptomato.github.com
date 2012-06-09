@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: science
 section: Science
-menu_pages: ['Home', 'Projects']
+menu_pages: ['Projects', 'What Is...?', 'Publications']
 title: Teaching LabVIEW
 image: labview-thumbnail.png
 ---
