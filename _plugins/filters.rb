@@ -40,5 +40,11 @@ module Jekyll
 		def bold_if_contains(text, substring)
 			(text.include? substring) ? "**" + text + "**" : text
 		end
+
+		# Print out to the terminal for debugging
+		def debug(text)
+			puts text
+			nil
+		end
 	end
 end
