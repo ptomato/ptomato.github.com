@@ -233,11 +233,13 @@ Space is cheap on the internet though, and this is just as much a record for mys
 # Peer-reviewed journal articles #
 
 {% for item in page.articles reversed %}
-{% for author in item.authors %}{{ author | listing_name | bold_if_contains: 'Chimento' }}{% if forloop.rindex0 != 0 %},{% endif %} {% endfor %}
+{% for author in item.authors %}
+{{ author | listing_name | bold_if_contains: 'Chimento' }}{% unless forloop.last %},{% endunless %} {% endfor %}
 ({{ item.year }}).
 {{ item.title }}.
 _{{ item.journal }}_
-_{{ item.issue }}_{% if item.number %} ({{ item.number }}){% endif %}, {{ item.pages }}.
+_{{ item.issue }}_{% if item.number %} ({{ item.number }}){% endif %},
+{{ item.pages }}.
 [doi:{{ item.doi }}](http://dx.doi.org/{{ item.doi }})
 {% if item.note %}({{ item.note }}){% endif %} {% if item.cited > 0 %}<span class="tag">Cited {{ item.cited }} time{% if item.cited != 1 %}s{% endif %}</span>{% endif %}
 
@@ -246,10 +248,12 @@ _{{ item.issue }}_{% if item.number %} ({{ item.number }}){% endif %}, {{ item.p
 # Conference contributions (proceedings) #
 
 {% for item in page.proceedings reversed %}
-{% for author in item.authors %}{{ author | listing_name | bold_if_contains: 'Chimento' }}{% if forloop.rindex0 != 0 %},{% endif %} {% endfor %}
+{% for author in item.authors %}
+{{ author | listing_name | bold_if_contains: 'Chimento' }}{% unless forloop.last %},{% endunless %} {% endfor %}
 ({{ item.year }}).
 {{ item.title }}.
-In {% for editor in item.editors %}{{ editor | listing_name }}{% if forloop.rindex0 != 0 %},{% endif %} {% endfor %}(Eds.),
+In {% for editor in item.editors %}
+{{ editor | listing_name }}{% unless forloop.last %},{% endunless %} {% endfor %}(Eds.),
 _{{ item.book }}_ (pp. {{ item.pages }}).
 {{ item.place }}: {{ item.publisher }}.
 {% if item.note %}({{ item.note }}){% endif %}
@@ -259,7 +263,8 @@ _{{ item.book }}_ (pp. {{ item.pages }}).
 # Conference contributions (oral presentations) #
 
 {% for item in page.talks reversed %}
-{% for author in item.authors %}{{ author | listing_name | bold_if_contains: 'Chimento' }}{% if forloop.rindex0 != 0 %},{% endif %} {% endfor %}
+{% for author in item.authors %}
+{{ author | listing_name | bold_if_contains: 'Chimento' }}{% unless forloop.last %},{% endunless %} {% endfor %}
 ({{ item.year }}).
 _{{ item.title }}._
 {{ item.venue }}.
@@ -271,7 +276,8 @@ _{{ item.title }}._
 # Conference contributions (posters) #
 
 {% for item in page.posters reversed %}
-{% for author in item.authors %}{{ author | listing_name | bold_if_contains: 'Chimento' }}{% if forloop.rindex0 != 0 %},{% endif %} {% endfor %}
+{% for author in item.authors %}
+{{ author | listing_name | bold_if_contains: 'Chimento' }}{% unless forloop.last %},{% endunless %} {% endfor %}
 ({{ item.year }}).
 _{{ item.title }}._
 {{ item.venue }}.
