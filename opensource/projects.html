@@ -9,7 +9,9 @@ title: Projects
 </p>
 
 {% assign latex = '<span class="latex-nonsense"><span class="kern">L</span><sup>A</sup><span class="kern">T</span><sub>E</sub>X</span>' %}
-<!--How to do this without duplicating the HTML in _includes/latex.html?-->
+{% comment %}
+How to do this without duplicating the HTML in _includes/latex.html?
+{% endcomment %}
 
 {% for item in site.categories.opensource reversed %}
 <div class="box" id="{{ item.name | handleize }}">
