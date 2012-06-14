@@ -15,22 +15,24 @@ I am especially proficient in **C**, **Python**, and **LabVIEW**, but I also kno
 
 # Science communication #
 
-I am interested in effective oral and written communication, especially of scientific information, on all different levels, from popular to academic, using tools such as diagrams, illustrations, and well-written language.
-Designing both the content and the aesthetic aspects of scientific writing appeals to me.
-For an example, browse my [weblog](http://ptomato.wordpress.com) which contains some informal scientific writing.
+I am interested in effective science communication, on all different levels, from popular to academic, using tools such as data visualization, illustrations, and well-written language.
+Designing both the **content** and the **aesthetic** of scientific writing appeals to me.
 
 # Design #
 
 I have an eye for good design, typography, and calligraphy, which has found its way into posters, websites, dissertations, computer user interfaces, and other things throughout the years.
-I have mastered several graphics and DTP programs, such as Adobe InDesign.
+I have mastered several graphics and DTP programs, such as **Adobe InDesign**.
 
 # Presentation skills #
 
-Experience in several amateur theater groups has taught me skills in oral presentation, public speaking, and dealing with an audience.
+Experience in several amateur theater groups has taught me skills in **oral presentation**, **public speaking**, and dealing with an **audience**.
 (And I even learned to play an instrument.)
 
 # Language #
 
-I am a native speaker of **English**.
-While living abroad I proved my ability to pick up other languages with daily practice, learning **Dutch** to the point that I am mistaken for a native speaker.
-I also speak some **German** and rudimentary **French**.
+- **English** (native speaker)
+- **Dutch** (near-native)
+- **German** (basic)
+- **French** (rudimentary)
+
+While living abroad I proved my ability to pick up other languages with daily practice, learning Dutch to the point that I am mistaken for a native speaker.
