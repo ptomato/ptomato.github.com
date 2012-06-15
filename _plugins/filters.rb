@@ -1,3 +1,5 @@
+# encoding: utf-8
+
 # Can't use - GitHub Pages disallows custom plugins.
 
 module Jekyll
