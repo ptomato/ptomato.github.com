@@ -100,6 +100,15 @@ talks:
     venue: Physics@FOM 2012
     date: January 17‒18, 2012
     place: Veldhoven, Netherlands
+  - authors:
+    - Chimento, Philip F.
+    - ’t Hooft, Gert W.
+    - Eliel, Eric R.
+    year: 2012
+    title: Anomalous surface plasmon dispersion in aluminum
+    venue: Casimir Spring School
+    date: June 12-14, 2012
+    place: Arnemuiden, Netherlands
 posters:
   - authors:
     - Jurna, Martin
