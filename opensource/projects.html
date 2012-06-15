@@ -14,7 +14,7 @@ How to do this without duplicating the HTML in _includes/latex.html?
 {% endcomment %}
 
 {% for item in site.categories.opensource reversed %}
-<div class="box" id="{{ item.name | handleize }}">
+<div class="box" id="{{ item.name | downcase | replace:' ', '-' }}">
   <p class="medium-title">
     {% if item.icon %}
       <img src="/images/{{ item.icon }}"/>

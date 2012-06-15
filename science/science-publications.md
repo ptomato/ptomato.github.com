@@ -233,8 +233,8 @@ Space is cheap on the internet though, and this is just as much a record for mys
 # Peer-reviewed journal articles #
 
 {% for item in page.articles reversed %}
-{% for author in item.authors %}
-{{ author | listing_name | bold_if_contains: 'Chimento' }}{% unless forloop.last %},{% endunless %} {% endfor %}
+{% for author in item.authors %}{% capture authorname %}{% if author contains 'Chimento' %}**{% endif %}{{ author | split: ', ' | last }} {{ author | split: ', ' | first }}{% if author contains 'Chimento' %}**{% endif %}{% endcapture %}
+{{ authorname }}{% unless forloop.last %},{% endunless %} {% endfor %}
 ({{ item.year }}).
 {{ item.title }}.
 _{{ item.journal }}_
@@ -248,12 +248,12 @@ _{{ item.issue }}_{% if item.number %} ({{ item.number }}){% endif %},
 # Conference contributions (proceedings) #
 
 {% for item in page.proceedings reversed %}
-{% for author in item.authors %}
-{{ author | listing_name | bold_if_contains: 'Chimento' }}{% unless forloop.last %},{% endunless %} {% endfor %}
+{% for author in item.authors %}{% capture authorname %}{% if author contains 'Chimento' %}**{% endif %}{{ author | split: ', ' | last }} {{ author | split: ', ' | first }}{% if author contains 'Chimento' %}**{% endif %}{% endcapture %}
+{{ authorname }}{% unless forloop.last %},{% endunless %} {% endfor %}
 ({{ item.year }}).
 {{ item.title }}.
 In {% for editor in item.editors %}
-{{ editor | listing_name }}{% unless forloop.last %},{% endunless %} {% endfor %}(Eds.),
+{{ editor | split: ', ' | last }} {{ editor | split: ', ' | first }}{% unless forloop.last %},{% endunless %} {% endfor %}(Eds.),
 _{{ item.book }}_ (pp. {{ item.pages }}).
 {{ item.place }}: {{ item.publisher }}.
 {% if item.note %}({{ item.note }}){% endif %}
@@ -263,8 +263,8 @@ _{{ item.book }}_ (pp. {{ item.pages }}).
 # Conference contributions (oral presentations) #
 
 {% for item in page.talks reversed %}
-{% for author in item.authors %}
-{{ author | listing_name | bold_if_contains: 'Chimento' }}{% unless forloop.last %},{% endunless %} {% endfor %}
+{% for author in item.authors %}{% capture authorname %}{% if author contains 'Chimento' %}**{% endif %}{{ author | split: ', ' | last }} {{ author | split: ', ' | first }}{% if author contains 'Chimento' %}**{% endif %}{% endcapture %}
+{{ authorname }}{% unless forloop.last %},{% endunless %} {% endfor %}
 ({{ item.year }}).
 _{{ item.title }}._
 {{ item.venue }}.
@@ -276,21 +276,21 @@ _{{ item.title }}._
 # Conference contributions (posters) #
 
 {% for item in page.posters reversed %}
-{% for author in item.authors %}
-{{ author | listing_name | bold_if_contains: 'Chimento' }}{% unless forloop.last %},{% endunless %} {% endfor %}
+{% for author in item.authors %}{% capture authorname %}{% if author contains 'Chimento' %}**{% endif %}{{ author | split: ', ' | last }} {{ author | split: ', ' | first }}{% if author contains 'Chimento' %}**{% endif %}{% endcapture %}
+{{ authorname }}{% unless forloop.last %},{% endunless %} {% endfor %}
 ({{ item.year }}).
 _{{ item.title }}._
 {{ item.venue }}.
 {{ item.date }}, {{ item.place }}.
-{% if item.presenter %}(Presented by {{ item.presenter | normal_name }}.){% endif %}
+{% if item.presenter %}(Presented by {{ item.presenter | split: ', ' | last }} {{ item.presenter | split: ', ' | first }}.){% endif %}
 {% if item.note %}({{ item.note }}){% endif %}
 
 {% endfor %}
 
 # Various #
 
-**P. F. Chimento** & E. R. Eliel (2011). _Interference, diffraction, and birefringence with plasmonics._ Oral presentation, second progress meeting of FOM Plasmonics project. June 16, 2011, Amsterdam, Netherlands.
+**Philip F. Chimento** & Eric R. Eliel (2011). _Interference, diffraction, and birefringence with plasmonics._ Oral presentation, second progress meeting of FOM Plasmonics project. June 16, 2011, Amsterdam, Netherlands.
 
-**P. F. Chimento**, G. W. ’t Hooft, & E. R. Eliel (2011). _Two-dimensional optics._ Oral presentation, qualifying round of the Netherlands Physical Society Young Speakers’ Contest. March 16, 2011, Amsterdam, Netherlands.
+**Philip F. Chimento**, Gert W. ’t Hooft, & Eric R. Eliel (2011). _Two-dimensional optics._ Oral presentation, qualifying round of the Netherlands Physical Society Young Speakers’ Contest. March 16, 2011, Amsterdam, Netherlands.
 
-**P. F. Chimento** & E. R. Eliel (2009). _A cabinet of plasmonic curiosities._ Oral presentation, first progress meeting of FOM Plasmonics project. December 15, 2009, Amsterdam, Netherlands.
+**Philip F. Chimento** & Eric R. Eliel (2009). _A cabinet of plasmonic curiosities._ Oral presentation, first progress meeting of FOM Plasmonics project. December 15, 2009, Amsterdam, Netherlands.

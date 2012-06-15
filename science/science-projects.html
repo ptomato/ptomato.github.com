@@ -10,7 +10,7 @@ menu_pages: ['Projects', 'What Is...?', 'Publications']
   For an accessible explanation of what I work on, go <a href="/science/science-what-is.html"><strong>here</strong></a>.
 </p>
 {% for item in site.categories.science %}
-  <div id="{{ item.title | handleize }}">
+  <div id="{{ item.title | downcase | replace: ' ', '-' }}">
 
     {% if item.image %}
       <img class="thumbnail {% cycle 'float-right', 'float-left' %}" src="/images/{{ item.image }}"/>
@@ -20,9 +20,9 @@ menu_pages: ['Projects', 'What Is...?', 'Publications']
 
     <div class="{% cycle 'item-left', 'item-right' %}">
       <p class="medium-title">{{ item.title }}</p>
-      <p>{{ item.content | first }}</p>
-      {% capture rest %}{{ item.content | tail }}{% endcapture %}
-      {% if rest != '' %}
+      <p>{{ item.content | truncatewords: 75 }}</p>
+      {% capture wds %}{{ item.content | number_of_words }}{% endcapture %}
+      {% if wds > '75' %}
         <a class="button bluebutton morebutton" href="{{ item.url }}">Read more</a>
       {% endif %}
     </div>

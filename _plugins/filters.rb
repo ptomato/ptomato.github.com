@@ -1,5 +1,8 @@
+# Can't use - GitHub Pages disallows custom plugins.
+
 module Jekyll
 	module Filters
+		# {{ text | downcase | replace:' ', '-' }} is not quite as thorough
 		def handleize(text)
 			# Adapted from Shopify/pixelprinter
 

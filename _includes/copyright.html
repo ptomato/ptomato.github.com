@@ -3,7 +3,7 @@
   {% if page.license and page.license-uri %}
     <div class="license">
       <p>
-        This work is licensed under the {{ page.license | link_to: page.license-uri }}.
+        This work is licensed under the <a href="{{ page.license-uri }}">{{ page.license }}</a>.
       </p>
     </div>
   {% endif %}

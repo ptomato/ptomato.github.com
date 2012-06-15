@@ -75,6 +75,10 @@ sup, sub {
 	font-size: 1.3em;
 }
 
+.firstbig > p:first-child {
+	font-size: 1.3em;
+}
+
 .item-left {
 	width: 80%;
 	margin: 1em auto 0 0;
