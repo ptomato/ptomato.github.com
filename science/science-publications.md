@@ -17,6 +17,7 @@ articles:
     title: High-resolution narrowband CARS spectroscopy in the spectral fingerprint region
     journal: Journal of Raman Spectroscopy
     issue: 40
+    number: 9
     pages: 1229‒1233
     doi: 10.1002/jrs.2267
     cited: 8
@@ -28,6 +29,7 @@ articles:
     title: Plasmonic tomography of optical vortices
     journal: Optics Letters
     issue: 35
+    number: 22
     pages: 3775‒3777
     doi: 10.1364/OL.35.003775
     cited: 0
@@ -143,7 +145,7 @@ posters:
     - Herek, Jennifer L.
     - Offerhaus, Herman L.
     year: 2008
-    title: PPLN-based OPO for CARS spectroscopy in the fingerprint region.
+    title: PPLN-based OPO for CARS spectroscopy in the fingerprint region
     venue: MESA+ Institute for Nanotechnology/University of Münster workshop
     date: April 1, 2008
     place: Enschede, Netherlands
