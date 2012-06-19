@@ -49,9 +49,9 @@ How to do this without duplicating the HTML in _includes/latex.html?
         <a href="/opensource/{{ item.page }}/{{ item.page }}.html" class="button morebutton bluebutton">Read more</a>
       {% endif %}
       {% if item.github-name %}
-        <a href="https://github.com/ptomato/{{ item.github-name }}" target="_blank" class="button morebutton graybutton">View on GitHub</a>
+        <a href="https://github.com/ptomato/{{ item.github-name }}" target="_blank" class="button morebutton greenbutton">View on GitHub</a>
       {% elsif item.repository %}
-        <a href="{{ item.repository }}" target="_blank" class="button morebutton graybutton">See the code</a>
+        <a href="{{ item.repository }}" target="_blank" class="button morebutton greenbutton">See the code</a>
       {% endif %}
     </p>
   {% endif %}

@@ -416,6 +416,28 @@ http://webdesignerwall.com/tutorials/css3-gradient-buttons */
 	background: linear-gradient(to bottom, #2966bf, #204a87);
 }
 
+.greenbutton {
+	color: white;
+	border-color: #8ae234; /* chameleon3 */
+	background: #73d216; /* chameleon2 */
+	background: -webkit-gradient(linear, left top, left bottom, from(#73d216), to(#63c206));
+	background: -webkit-linear-gradient(top, #73d216, #63c206);
+	background: -moz-linear-gradient(top, #73d216, #63c206);
+	background: -ms-linear-gradient(top, #73d216, #63c206);
+	background: -o-linear-gradient(top, #73d216, #63c206);
+	background: linear-gradient(to bottom, #73d216, #63c206);
+}
+
+.greenbutton:hover {
+	background: #4e9a06; /* chameleon1 */
+	background: -webkit-gradient(linear, left top, left bottom, from(#5eaa16), to(#4e9a06));
+	background: -webkit-linear-gradient(top, #5eaa16, #4e9a06);
+	background: -moz-linear-gradient(top, #5eaa16, #4e9a06);
+	background: -ms-linear-gradient(top, #5eaa16, #4e9a06);
+	background: -o-linear-gradient(top, #5eaa16, #4e9a06);
+	background: linear-gradient(to bottom, #5eaa16, #4e9a06);
+}
+
 .tanbutton {
 	color: black;
 	border-color: #8f5902; /* chocolate3 */
