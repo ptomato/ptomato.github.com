@@ -212,7 +212,7 @@ posters:
     - Eliel, Eric R.
     year: 2011
     title: Plasmonic optical vortex tomography
-    venue: 3rd International Topical Meeting on Nanophotonics and Metamaterials.
+    venue: 3rd International Topical Meeting on Nanophotonics and Metamaterials
     date: January 3‒6, 2011
     place: Tirol, Austria
     presenter: Eliel, Eric R.
