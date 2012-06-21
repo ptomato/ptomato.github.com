@@ -10,4 +10,5 @@ My résumé, resumé, resume, CV, work experience, or whatever you wish to call 
 - at [LinkedIn](http://www.linkedin.com/profile/view?id=9282496)
 - at [Stack Overflow Careers](http://careers.stackoverflow.com/philipchimento)
 
-I won't make any PDF version available here, because it contains contact information.
+Sorry, but there is no PDF version available for download here.
+However, feel free to request one.
