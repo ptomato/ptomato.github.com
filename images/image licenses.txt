@@ -1,3 +1,4 @@
 windows.png - Jason LaRose, public domain (iconfinder.com)
 package.png - Tango icon set
 manual.png - Gnome icon set
+plasmonic-lens.png - taken from 'Refractive micro-optical elements for surface plasmons: from classical to gradient index optics' by Elo•se Devaux, Jean-Yves Laluet, Benedikt Stein, Cyriaque Genet, Thomas Ebbesen, Jean-Claude Weeber, and Alain Dereux (open-access paper, http://dx.doi.org/10.1364/OE.18.020610). Used without permission. Rationale for fair use: nonprofit educational purposes.

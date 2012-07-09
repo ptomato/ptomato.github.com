@@ -24,6 +24,7 @@ h1 {
 	font-family: 'Droid Serif', georgia, times, serif;
 	display: inline;
 	color: #4e9a06; /* chameleon3 */
+	line-height: 2;
 	border-bottom: 3px solid #8ae234; /* chameleon1 */
 	font-size: 1.4em;
 }
@@ -173,6 +174,9 @@ a.figure:hover {
 
 .figure .caption {
   padding: 9px;
+  text-align: center;
+  color: #555753; /* aluminum5 */
+  font-style: italic;
 }
 
 /* Spans */
