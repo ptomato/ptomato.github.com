@@ -273,6 +273,14 @@ a.figure:hover {
 	font-weight: bold;
 }
 
+.menu .back > a {
+	color: #3465a4;
+}
+
+.menu .back > a:hover {
+	color: white;
+}
+
 /* Main menu */
 .main {
 	background-color: #5c3566;

@@ -24,6 +24,7 @@
 
       <div class="menu">
         <ul>
+          <li class="back"><a href="/">&#x21a9;</a></li> <!-- leftwards arrow with hook -->
           {% for item in page.menu_pages %}
           <li {% if page.title == item %}class="current"{% endif %}>
             {% capture page_name %}{{ page.section | downcase | replace:' ', '-' }}{% if item != 'Home' %}-{{ item | downcase | replace:' ', '-' | remove: '.' | remove: '?' }}{% endif %}.html{% endcapture %}
