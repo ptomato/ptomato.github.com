@@ -1,6 +1,6 @@
 ---
 name: Articulate
-github-name: googledocs2latex
+github-name: Articulate
 tagline: Write your papers collaboratively in Google Docs, then format them in LaTeX
 tags: ['Vala', 'XSLT', 'GTK', 'LaTeX', 'GData API']
 ---

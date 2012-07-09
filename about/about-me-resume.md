@@ -11,4 +11,4 @@ My résumé, resumé, resume, CV, work experience, or whatever you wish to call 
 - at [Stack Overflow Careers](http://careers.stackoverflow.com/philipchimento)
 
 Sorry, but there is no PDF version available for download here.
-However, feel free to request one.
+However, feel free to request one: philip dot chimento at gmail dot com.
