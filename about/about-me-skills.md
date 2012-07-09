@@ -34,5 +34,3 @@ Experience in several amateur theater groups has taught me skills in **oral pres
 - **Dutch** (near-native)
 - **German** (basic)
 - **French** (rudimentary)
-
-While living abroad I proved my ability to pick up other languages with daily practice, learning Dutch to the point that I am mistaken for a native speaker.
