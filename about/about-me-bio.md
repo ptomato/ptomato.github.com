@@ -16,9 +16,7 @@ That's why this bio reads mostly like a résumé. <span class="note">(And that's
 
 # Career goal #
 
-I’ve worked as a physicist for several years now, and practiced software engineering as a hobby.
-I've discovered that although I love research, at heart I'm more of a **toolmaker**.
-I want to use my experience to improve the software tools available to scientists and researchers.
+**Making tools**: interfaces between a difficult task and a user who needs an easier abstraction. I can sink my teeth into something complicated, but I can also take a step back and condense it into a form others can work with. In other words, I want to work on things that people use, in a job where I can deal with both the technical side and the human side of technology.
 
 What does that mean in terms of the actual **job** I'm looking for?
 I'd like to work
@@ -26,6 +24,8 @@ I'd like to work
 - as a software engineer, designing tools for research, preferably with affinity towards open source;
 - in physics (optics) research, in a team doing something cool;
 - as a software engineer, in the field of scientific computing.
+
+I'm interested in relocating to **Canada**.
 
 # Disambiguation #
 

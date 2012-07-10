@@ -33,4 +33,3 @@ Experience in several amateur theater groups has taught me skills in **oral pres
 - **English** (native speaker)
 - **Dutch** (near-native)
 - **German** (basic)
-- **French** (rudimentary)
