@@ -1,0 +1,494 @@
+/* General */
+
+html {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	font-family: 'Open Sans', 'Droid Sans', verdana, sans-serif;
+	height: 100%;
+	background: #555753;
+}
+
+a {
+	text-decoration: none;
+	color: #204a87;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+h1 {
+	font-family: 'Droid Serif', georgia, times, serif;
+	display: inline;
+	color: #4e9a06; /* chameleon3 */
+	line-height: 2;
+	border-bottom: 3px solid #8ae234; /* chameleon1 */
+	font-size: 1.4em;
+}
+
+h2 {
+	font-family: 'Droid Serif', georgia, times, serif;
+	font-weight: normal;
+	display: inline;
+	color: #4e9a06; /* chameleon3 */
+	border-bottom: 3px solid #8ae234; /* chameleon1 */
+	font-size: 1.2em;
+}
+
+li {
+	list-style-type: square;
+	margin-bottom: 0.5em;
+}
+
+pre code {
+	font-family: 'Menlo', 'Droid Sans Mono', 'Andale Mono', courier, monospace;
+	font-size: small;
+}
+
+sup, sub {
+	line-height: 0;
+	font-size: 80%;
+}
+
+/* Divs */
+
+.callout {
+	text-align: center;
+	font-size: 140%;
+	border: 3px solid #e9b96e; /* chocolate1 */
+	margin: 1em;
+	padding: .5em;
+	-webkit-border-radius: .5em;
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+}
+
+.highlight {
+	border-left: 4px solid #555753; /* aluminum5 */
+	padding: 0 1em;
+	margin-bottom: 0.5em;
+}
+
+.bigparagraph {
+	font-size: 1.3em;
+}
+
+.firstbig > p:first-child {
+	font-size: 1.3em;
+}
+
+.item-left {
+	width: 80%;
+	margin: 1em auto 0 0;
+	text-align: left;
+}
+
+.item-right {
+	width: 80%;
+	margin: 1em 0 0 auto;
+	text-align: right;
+}
+
+.box {
+	width: 45%;
+	margin: 1em 1em 0 0;
+	vertical-align: top;
+	display: inline-block;
+}
+
+.medium-title {
+	font-weight: bold;
+	letter-spacing: -0.03em;
+	font-size: 1.5em;
+	margin-bottom: 0;
+	text-align: left;
+}
+
+.small-para {
+	font-size: 0.8em;
+	text-align: left;
+}
+
+.tag-list {
+	margin-top: 0;
+}
+
+.thumbnail {
+	max-width: 20%;
+	padding: 5px;
+	border: 1px solid #555753; /* aluminum5 */
+	box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.3);
+	margin: 0.5em;
+}
+
+.float-left {
+	float: left;
+}
+
+.float-right {
+	float: right;
+}
+
+.bigbutton-area {
+	text-align: center;
+	margin: 3em 0;
+}
+
+.tagline {
+	margin-top: 0;
+	margin-bottom: 0;
+	text-align: left;
+}
+
+/* "figure" cheerfully stolen from Bootstrap's "thumbnail" */
+
+.figure {
+  display: block;
+  padding: 4px;
+  line-height: 1;
+  border: 1px solid #ddd;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+     -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+          box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+a.figure:hover {
+  border-color: #0088cc;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
+     -moz-box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
+          box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
+}
+
+.figure > img {
+  display: block;
+  max-width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.figure .caption {
+  padding: 9px;
+  text-align: center;
+  color: #555753; /* aluminum5 */
+  font-style: italic;
+}
+
+/* Spans */
+
+.note {
+	font-style: italic;
+	font-size: 80%;
+	color: #888a85;
+}
+
+.tag {
+	font-size: 80%;
+	background: #e9b96e; /* chocolate1 */
+	padding: 0 3px;
+	margin: 0;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.latex-nonsense sup {
+	line-height: normal;
+	vertical-align: 15%;
+}
+
+.latex-nonsense .kern {
+	letter-spacing: -1pt;
+}
+
+/* Little ornamental icons (32x32) */
+
+.source-download:before {
+	content: url(/images/package.png) " ";
+	vertical-align: -20%; /* tweak */
+}
+
+.windows-download:before {
+	content: url(/images/windows.png) " ";
+	vertical-align: -20%; /* tweak */
+}
+
+.manual-link:before {
+	content: url(/images/manual.png) " ";
+	vertical-align: -20%; /* tweak */
+}
+
+/* Specific layout elements on the page */
+
+.header {
+	font-family: 'Open Sans', 'Droid Sans', verdana, sans-serif;
+	padding: 1em 0 0.3em 1em;
+	font-weight: bold;
+	font-size: 60px;
+	letter-spacing: -0.03em;
+	color: white;
+	background: black;
+	margin: 0;
+	background-image: url('/images/header.jpg');
+}
+
+.menu {
+	text-align: center;
+	background-color: #204a78;
+	border: 1px solid #204a78;
+	margin: 0 0 10px 0;
+	-webkit-box-shadow: 0 5px 2px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 5px 2px rgba(0,0,0,.2);
+	box-shadow: 0 5px 2px rgba(0,0,0,.2);
+}
+
+.menu p {
+	display: inline;
+	color: #729fcf;
+}
+
+.menu a {
+	color: white;
+}
+
+.menu ul {
+	list-style-type: none;
+	padding: 0;
+	display: inline;
+}
+
+.menu li {
+	font-size: 24pt;
+	display: inline;
+	padding: 0 0.5em;
+	letter-spacing: -0.03em;
+}
+
+.menu .current {
+	font-weight: bold;
+}
+
+.menu .back > a {
+	color: #3465a4;
+}
+
+.menu .back > a:hover {
+	color: white;
+}
+
+/* Main menu */
+.main {
+	background-color: #5c3566;
+	border: 0.1px solid #5c3566;
+	margin: 0;
+}
+
+.main p {
+	color: #ad7fa8;
+}
+
+.main li {
+	font-size: 12pt;
+	text-transform: uppercase;
+}
+
+.background {
+	width: 100%;
+	background: white;
+}
+
+.content {
+	padding-bottom: 4em;
+	width: 42em;
+	margin: 2em auto 0;
+	text-align: justify;
+}
+
+.license {
+	font-size: x-small;
+	font-style: italic;
+	margin: 0;
+}
+
+.footer {
+	border-top: 3px solid #204a87;
+	margin-bottom: auto;
+}
+
+.footer p {
+	text-align: center;
+	font-size: small;
+	color: #babdb6;
+}
+
+.footer a {
+	color: #babdb6;
+	border-bottom: 1px dotted;
+}
+
+.footer a:hover {
+	text-decoration: none;
+	border-bottom: 1px solid;
+}
+
+/* Button classes. Use "button bigbutton redbutton" to make a big red button,
+for example. */
+/* Nice button tutorial:
+http://webdesignerwall.com/tutorials/css3-gradient-buttons */
+
+.button {
+	cursor: pointer;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+	-moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+	box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+	border: 1px solid;
+}
+
+.button:hover {
+	text-decoration: none;
+}
+
+.button:active {
+	position: relative;
+	top: 1px;
+}
+
+.smallbutton {
+	font-size: 24px;
+	margin: 0.25em;
+	padding: 0 0.5em;
+	-webkit-border-radius: .5em;
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+}
+
+.morebutton, .backbutton {
+	padding: 0 0.5em;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.morebutton:after {
+	content: " »";
+}
+
+.backbutton:before {
+	content: "« ";
+}
+
+.bigbutton {
+    font-size: 32px;
+	min-width: 18.2em;
+	padding: 1em;
+	margin: 0.5em;
+	-webkit-border-radius: .5em;
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+}
+
+.graybutton {
+    color: black;
+    border-color: #555753; /* aluminum5 */
+	background: #babdb6; /* aluminum3 */
+	background: -webkit-gradient(linear, left top, left bottom, from(white), to(#babdb6));
+	background: -webkit-linear-gradient(top, white, #babdb6);
+	background: -moz-linear-gradient(top, white, #babdb6);
+	background: -ms-linear-gradient(top, white, #babdb6);
+	background: -o-linear-gradient(top, white, #babdb6);
+	background: linear-gradient(to bottom, white, #babdb6);
+}
+
+.graybutton:hover {
+    border-color: #555753; /* aluminum5 */
+    background: #888a85; /* aluminum4 */
+	background: -webkit-gradient(linear, left top, left bottom, from(#eeeeec), to(#888a85));
+	background: -webkit-linear-gradient(top, #eeeeec, #888a85);
+	background: -moz-linear-gradient(top, #eeeeec, #888a85);
+	background: -ms-linear-gradient(top, #eeeeec, #888a85);
+	background: -o-linear-gradient(top, #eeeeec, #888a85);
+	background: linear-gradient(to bottom, #eeeeec, #888a85);
+}
+
+.redbutton {
+    color: white;
+    border-color: #ef2929;
+	background: #cc0000;
+	background: -webkit-gradient(linear, left top, left bottom, from(#d41e1e), to(#a40000));
+	background: -webkit-linear-gradient(top, #d41e1e, #a40000);
+	background: -moz-linear-gradient(top, #d41e1e, #a40000);
+	background: -ms-linear-gradient(top, #d41e1e, #a40000);
+	background: -o-linear-gradient(top, #d41e1e, #a40000);
+	background: linear-gradient(to bottom, #d41e1e, #a40000);
+}
+
+.redbutton:hover {
+    border-color: #ef2929;
+    background: #b60000;
+	background: -webkit-gradient(linear, left top, left bottom, from(#cc0000), to(#910000));
+	background: -webkit-linear-gradient(top, #cc0000, #910000);
+	background: -moz-linear-gradient(top, #cc0000, #910000);
+	background: -ms-linear-gradient(top, #cc0000, #910000);
+	background: -o-linear-gradient(top, #cc0000, #910000);
+	background: linear-gradient(to bottom, #cc0000, #910000);
+}
+
+.bluebutton {
+	color: white;
+	border-color: #729fcf; /* skyblue3 */
+	background: #3465a4; /* skyblue2 */
+	background: -webkit-gradient(linear, left top, left bottom, from(#4485da), to(#3465a4));
+	background: -webkit-linear-gradient(top, #4485da, #3465a4);
+	background: -moz-linear-gradient(top, #4485da, #3465a4);
+	background: -ms-linear-gradient(top, #4485da, #3465a4);
+	background: -o-linear-gradient(top, #4485da, #3465a4);
+	background: linear-gradient(top, #4485da, #3465a4);
+}
+
+.bluebutton:hover {
+	background: #204a87; /* skyblue1 */
+	background: -webkit-gradient(linear, left top, left bottom, from(#2966bf), to(#204a87));
+	background: -webkit-linear-gradient(top, #2966bf, #204a87);
+	background: -moz-linear-gradient(top, #2966bf, #204a87);
+	background: -ms-linear-gradient(top, #2966bf, #204a87);
+	background: -o-linear-gradient(top, #2966bf, #204a87);
+	background: linear-gradient(to bottom, #2966bf, #204a87);
+}
+
+.greenbutton {
+	color: white;
+	border-color: #8ae234; /* chameleon3 */
+	background: #73d216; /* chameleon2 */
+	background: -webkit-gradient(linear, left top, left bottom, from(#73d216), to(#63c206));
+	background: -webkit-linear-gradient(top, #73d216, #63c206);
+	background: -moz-linear-gradient(top, #73d216, #63c206);
+	background: -ms-linear-gradient(top, #73d216, #63c206);
+	background: -o-linear-gradient(top, #73d216, #63c206);
+	background: linear-gradient(to bottom, #73d216, #63c206);
+}
+
+.greenbutton:hover {
+	background: #4e9a06; /* chameleon1 */
+	background: -webkit-gradient(linear, left top, left bottom, from(#5eaa16), to(#4e9a06));
+	background: -webkit-linear-gradient(top, #5eaa16, #4e9a06);
+	background: -moz-linear-gradient(top, #5eaa16, #4e9a06);
+	background: -ms-linear-gradient(top, #5eaa16, #4e9a06);
+	background: -o-linear-gradient(top, #5eaa16, #4e9a06);
+	background: linear-gradient(to bottom, #5eaa16, #4e9a06);
+}
+
+.tanbutton {
+	color: black;
+	border-color: #8f5902; /* chocolate3 */
+	background: #c17d11; /* chocolate2 */
+}
+
+.tanbutton:hover {
+	background: #e9b96e; /* chocolate1 */
+}
