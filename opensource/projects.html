@@ -1,0 +1,60 @@
+---
+layout: default
+section: Open Source Projects
+title: Projects
+---
+<p>
+  This is a list of the open source projects that I wrote.
+  There are <a href="https://www.ohloh.net/accounts/ptomato/positions">others</a> that I didn't write myself but have contributed to.
+</p>
+
+{% assign latex = '<span class="latex-nonsense"><span class="kern">L</span><sup>A</sup><span class="kern">T</span><sub>E</sub>X</span>' %}
+{% comment %}
+How to do this without duplicating the HTML in _includes/latex.html?
+{% endcomment %}
+
+{% for item in site.categories.opensource reversed %}
+<div class="box" id="{{ item.name | downcase | replace:' ', '-' }}">
+  <p class="medium-title">
+    {% if item.icon %}
+      <img src="/images/{{ item.icon }}"/>
+    {% endif %}
+    {% if item.website %}
+      <a href="{{ item.website }}" target="_blank">{{ item.name }}</a>
+    {% elsif item.page %}
+      <a href="/opensource/{{ item.page }}/{{ item.page }}.html">{{ item.name }}</a>
+    {% else %}
+      {{ item.name }}
+    {% endif %}
+  </p>
+  {% if item.tagline %}
+    <p class="tagline">{{ item.tagline | replace: 'LaTeX', latex }}</p>
+  {% endif %}
+
+  <!-- Tags -->
+  <p class="tag-list">
+    {% for tag in item.tags %}
+      <span class="tag">{{ tag | replace: 'LaTeX', latex }}</span>
+    {% endfor %}
+  </p>
+
+  <div class="small-para">{{ item.content }}</div>
+
+  <!-- "Read more", "Go to website", "Github" buttons -->
+  {% if item.website or item.page or item.github-name or item.repository %}
+    <p>
+      {% if item.website %}
+        <a href="{{ item.website }}" target="_blank" class="button morebutton bluebutton">Go to website</a>
+      {% elsif item.page %}
+        <a href="/opensource/{{ item.page }}/{{ item.page }}.html" class="button morebutton bluebutton">Read more</a>
+      {% endif %}
+      {% if item.github-name %}
+        <a href="https://github.com/ptomato/{{ item.github-name }}" target="_blank" class="button morebutton greenbutton">View on GitHub</a>
+      {% elsif item.repository %}
+        <a href="{{ item.repository }}" target="_blank" class="button morebutton greenbutton">See the code</a>
+      {% endif %}
+    </p>
+  {% endif %}
+
+</div>
+{% endfor %}

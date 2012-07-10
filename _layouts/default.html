@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+
+    <title>{{ page.title }} &mdash; {{ page.section }}</title>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700' rel='stylesheet' type='text/css'>
+    <link type="text/css" href="/css/awesome.css" rel="stylesheet" media="all"/>
+    {% if page.use-syntax-highlighting %}
+      <link type="text/css" href="/css/syntax.css" rel="stylesheet" media="all"/>
+    {% endif %}
+    <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
+  </head>
+
+  <body>
+
+    {% include mainmenu.html %}
+
+    <div class="background">
+      <p class="header">{{ page.section }}</p>
+
+      <div class="menu">
+        <ul>
+          <li class="back"><a href="/">&#x21a9;</a></li> <!-- leftwards arrow with hook -->
+          {% for item in page.menu_pages %}
+          <li {% if page.title == item %}class="current"{% endif %}>
+            {% capture page_name %}{{ page.section | downcase | replace:' ', '-' }}{% if item != 'Home' %}-{{ item | downcase | replace:' ', '-' | remove: '.' | remove: '?' }}{% endif %}.html{% endcapture %}
+            <a href="{{ page_name }}">{{ item }}</a>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+
+      <div class="content">
+        {{ content }}
+      </div>
+    </div>
+
+    {% include copyright.html %}
+    {% include temporary.html %}
+
+  </body>
+</html>

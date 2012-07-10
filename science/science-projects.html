@@ -1,0 +1,39 @@
+---
+layout: default
+section: Science
+title: Projects
+menu_pages: ['Projects', 'What Is...?', 'Publications']
+---
+<p class="bigparagraph">
+  This is an overview of the scientific projects I've worked on during my PhD and Master's.
+  It's written in <strong>technical terms</strong>.
+  For an accessible explanation of what I work on, go <a href="/science/science-what-is.html"><strong>here</strong></a>.
+</p>
+
+Among all the useful and interesting properties of surface plasmons, it is often taken for granted that they behave like two-dimensional light waves.
+This property of plasmons gives rise to some interesting experiments in itself.
+Measuring the topological charge of an optical vortex and playing with spin-orbit coupling are some of the tricks I have been working on.
+
+{% for item in site.categories.science %}
+  <div id="{{ item.title | downcase | replace: ' ', '-' }}">
+
+    {% if item.image %}
+      <img class="thumbnail {% cycle 'float-right', 'float-left' %}" src="/images/{{ item.image }}"/>
+    {% else %}
+      <p class="{% cycle 'float-right', 'float-left' %}"></p> <!-- empty -->
+    {% endif %}
+
+    <div class="{% cycle 'item-left', 'item-right' %}">
+      <p class="medium-title">{{ item.title }}</p>
+      <p>{{ item.content | truncatewords: 75 }}</p>
+      {% capture wds %}{{ item.content | number_of_words }}{% endcapture %}
+      {% if wds > '75' %}
+        <a class="button bluebutton morebutton" href="{{ item.url }}">Read more</a>
+      {% endif %}
+    </div>
+
+    <p style="clear: both"></p>
+    <!-- Dirty solution to stretch up the paragraph to the height of the float-->
+
+  </div>
+{% endfor %}
