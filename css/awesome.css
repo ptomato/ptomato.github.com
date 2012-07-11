@@ -275,6 +275,7 @@ a.figure:hover {
 
 .menu .back > a {
 	color: #3465a4;
+	line-height: 1; /* firefox 13.0.1 bug */
 }
 
 .menu .back > a:hover {
