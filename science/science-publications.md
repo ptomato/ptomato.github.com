@@ -244,7 +244,7 @@ Space is cheap on the internet though, and this is just as much a record for mys
 # Peer-reviewed journal articles #
 
 {% for item in page.articles reversed %}
-{% for author in item.authors %}{% capture bold %}{% if author contains 'Chimento' %}**{% endif %}{% endcapture %}{% capture authorname %}{{ bold }}{{ author | split: ', ' | last }} {{ author | split: ', ' | first }}{{ bold }}{% endcapture %}
+{% for author in item.authors %}{% capture authorname %}{% if author contains 'Chimento' %}**{% endif %}{{ author | split: ', ' | last }} {{ author | split: ', ' | first }}{% if author contains 'Chimento' %}**{% endif %}{% endcapture %}
 {{ authorname }}{% unless forloop.last %},{% endunless %} {% endfor %}
 ({{ item.year }}).
 {{ item.title }}.
@@ -259,7 +259,7 @@ _{{ item.issue }}_{% if item.number %} ({{ item.number }}){% endif %},
 # Conference contributions (proceedings) #
 
 {% for item in page.proceedings reversed %}
-{% for author in item.authors %}{% capture bold %}{% if author contains 'Chimento' %}**{% endif %}{% endcapture %}{% capture authorname %}{{ bold }}{{ author | split: ', ' | last }} {{ author | split: ', ' | first }}{{ bold }}{% endcapture %}
+{% for author in item.authors %}{% capture authorname %}{% if author contains 'Chimento' %}**{% endif %}{{ author | split: ', ' | last }} {{ author | split: ', ' | first }}{% if author contains 'Chimento' %}**{% endif %}{% endcapture %}
 {{ authorname }}{% unless forloop.last %},{% endunless %} {% endfor %}
 ({{ item.year }}).
 {{ item.title }}.
@@ -274,7 +274,7 @@ _{{ item.book }}_ (pp. {{ item.pages }}).
 # Conference contributions (oral presentations) #
 
 {% for item in page.talks reversed %}
-{% for author in item.authors %}{% capture bold %}{% if author contains 'Chimento' %}**{% endif %}{% endcapture %}{% capture authorname %}{{ bold }}{{ author | split: ', ' | last }} {{ author | split: ', ' | first }}{{ bold }}{% endcapture %}
+{% for author in item.authors %}{% capture authorname %}{% if author contains 'Chimento' %}**{% endif %}{{ author | split: ', ' | last }} {{ author | split: ', ' | first }}{% if author contains 'Chimento' %}**{% endif %}{% endcapture %}
 {{ authorname }}{% unless forloop.last %},{% endunless %} {% endfor %}
 ({{ item.year }}).
 _{{ item.title }}._
@@ -287,7 +287,7 @@ _{{ item.title }}._
 # Conference contributions (posters) #
 
 {% for item in page.posters reversed %}
-{% for author in item.authors %}{% capture bold %}{% if author contains 'Chimento' %}**{% endif %}{% endcapture %}{% capture authorname %}{{ bold }}{{ author | split: ', ' | last }} {{ author | split: ', ' | first }}{{ bold }}{% endcapture %}
+{% for author in item.authors %}{% capture authorname %}{% if author contains 'Chimento' %}**{% endif %}{{ author | split: ', ' | last }} {{ author | split: ', ' | first }}{% if author contains 'Chimento' %}**{% endif %}{% endcapture %}
 {{ authorname }}{% unless forloop.last %},{% endunless %} {% endfor %}
 ({{ item.year }}).
 _{{ item.title }}._
