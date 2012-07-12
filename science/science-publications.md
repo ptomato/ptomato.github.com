@@ -252,7 +252,7 @@ _{{ item.journal }}_
 _{{ item.issue }}_{% if item.number %} ({{ item.number }}){% endif %},
 {{ item.pages }}.
 [doi:{{ item.doi }}](http://dx.doi.org/{{ item.doi }})
-{% if item.note %}({{ item.note }}){% endif %} {% if item.cited > 0 %}<span class="tag">Cited {{ item.cited }} time{% if item.cited != 1 %}s{% endif %}</span>{% endif %}
+{% if item.note %}({{ item.note }}){% endif %} {% if item.cited > 0 %}<span class="tag">Cited&nbsp;{{ item.cited }}&nbsp;time{% if item.cited != 1 %}s{% endif %}</span>{% endif %}
 
 {% endfor %}
 
