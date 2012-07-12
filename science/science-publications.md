@@ -18,7 +18,7 @@ articles:
     journal: Journal of Raman Spectroscopy
     issue: 40
     number: 9
-    pages: 1229‒1233
+    pages: 1229-1233
     doi: 10.1002/jrs.2267
     cited: 8
   - authors:
@@ -30,7 +30,7 @@ articles:
     journal: Optics Letters
     issue: 35
     number: 22
-    pages: 3775‒3777
+    pages: 3775-3777
     doi: 10.1364/OL.35.003775
     cited: 0
   - authors:
@@ -45,7 +45,7 @@ articles:
     journal: Optics Express
     issue: 19
     number: 24
-    pages: 24219‒24227
+    pages: 24219-24227
     doi: 10.1364/OE.19.024219
     cited: 2
 proceedings:
@@ -62,7 +62,7 @@ proceedings:
     - Leijtens, Xaveer
     - Yousefi, Mirvais
     book: Proceedings of the 2010 Annual Symposium of the IEEE Photonics Benelux Chapter
-    pages: 17‒20
+    pages: 17-20
     place: Delft, Netherlands
     publisher: TNO
 talks:
@@ -82,7 +82,7 @@ talks:
     year: 2010
     title: Plasmonic optical vortex tomography
     venue: Annual symposium of the IEEE Photonics Benelux Chapter
-    date: November 18‒19, 2010
+    date: November 18-19, 2010
     place: Delft, Netherlands
   - authors:
     - Chimento, Philip F.
@@ -91,7 +91,7 @@ talks:
     year: 2011
     title: Plasmonic optical vortex tomography
     venue: Physics@FOM 2011
-    date: January 18‒19, 2011
+    date: January 18-19, 2011
     place: Veldhoven, Netherlands
   - authors:
     - Chimento, Philip F.
@@ -100,7 +100,7 @@ talks:
     year: 2012
     title: A circular nanoslit as a spin-to-orbital angular momentum converter
     venue: Physics@FOM 2012
-    date: January 17‒18, 2012
+    date: January 17-18, 2012
     place: Veldhoven, Netherlands
   - authors:
     - Chimento, Philip F.
@@ -186,7 +186,7 @@ posters:
     year: 2009
     title: High-resolution narrowband CARS spectroscopy in the spectral fingerprint region
     venue: Physics@FOM 2009
-    date: January 20‒21, 2009
+    date: January 20-21, 2009
     place: Veldhoven, Netherlands
   - authors:
     - Chimento, Philip F.
@@ -213,7 +213,7 @@ posters:
     year: 2011
     title: Plasmonic optical vortex tomography
     venue: 3rd International Topical Meeting on Nanophotonics and Metamaterials
-    date: January 3‒6, 2011
+    date: January 3-6, 2011
     place: Tirol, Austria
     presenter: Eliel, Eric R.
   - authors:
@@ -223,7 +223,7 @@ posters:
     year: 2011
     title: Plasmonic optical vortex tomography
     venue: 5th International Conference on Surface Plasmon Photonics
-    date: May 15‒20, 2011
+    date: May 15-20, 2011
     place: Busan, South Korea
   - authors:
     - Chimento, Philip F.
@@ -232,7 +232,7 @@ posters:
     year: 2011
     title: A circular metallic nanoslit as a spin to orbital angular momentum converter
     venue: 5th International Conference on Surface Plasmon Photonics
-    date: May 15‒20, 2011
+    date: May 15-20, 2011
     place: Busan, South Korea
 ---
 
