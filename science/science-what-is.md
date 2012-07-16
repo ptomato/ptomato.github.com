@@ -45,11 +45,11 @@ A surface plasmon hits Mr. Hexagon full in the face.
 However, the surface plasmon behaves just like a two-dimensional light wave &mdash; Mr. Triangle could have bounced it off his two-dimensional bathroom mirror, or focused it with a two-dimensional lens.
 
 <div class="figure">
-	<a href="http://prb.aps.org/abstract/PRB/v73/i15/e155416"><img src="" alt="http://prb.aps.org/abstract/PRB/v73/i15/e155416" width="300"/></a>
+	<a href="http://prb.aps.org/abstract/PRB/v73/i15/e155416"><img src="/images/plasmonic-mirror.png" alt="Plasmonic mirror" title="Probably copyright 2006 the American Physical Society. Used without permission. I believe this is Fair Use under United States copyright law, since only a portion of the original figure has been reproduced, and it is for nonprofit educational purposes." width="300"/></a>
 	<a href="http://dx.doi.org/10.1364/OE.18.020610"><img src="/images/plasmonic-lens.png" alt="Plasmonic lens" title="Probably copyright 2010 the Optical Society of America. Used without permission. I believe this is Fair Use under United States copyright law, since only a portion of the original figure has been reproduced, and it is for nonprofit educational purposes." width="300"/></a>
 </div>
 
-To illustrate that researchers actually do this, on the left, you see Mr. Triangle's bathroom mirror, from a 2006 [paper](http://dx.doi.org/10.1103/PhysRevB.73.155416) by Maria-Ujue Gonzalez et al.
+To illustrate that researchers actually do this, on the left, you see Mr. Triangle's bathroom mirror, from a 2006 [paper](http://dx.doi.org/10.1103/PhysRevB.73.155416) by Maria-Ujue Gonz&aacute;lez et al.
 On the right is Mr. Triangle's lens, from a 2010 [paper](http://dx.doi.org/10.1364/OE.18.020610) by Elo&iuml;se Devaux et al.
 (That paper is open access, so it's free to download and read!)
 
