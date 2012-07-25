@@ -22,7 +22,6 @@ With **Beams,** you can:
 # Future plans #
 
 This is what I have planned for **Beams** in the future.
-* Use the Traits library instead of GTK
 * Calibrate to a dark frame
 * Summing and averaging frames
 * Histograms
@@ -30,10 +29,10 @@ This is what I have planned for **Beams** in the future.
 
 # Technologies #
 
-**Beams** is written in [Python](http://www.python.org/) using the [PyGTK](http://pygtk.org/) user interface library.
+**Beams** is written in [Python](http://www.python.org/) using the [Traits](http://code.enthought.com/projects/traits/) user interface library.
 It talks to cameras using [OpenCV](http://opencv.willowgarage.com/wiki/), an open-source image recognition library, and [VideoCapture](http://videocapture.sourceforge.net/), a Python wrapper around Windows' DirectShow.
 It calculates using [NumPy](http://numpy.scipy.org/) and [SciPy](http://www.scipy.org/), two libraries for fast numerical and scientific computation.
-And it draws its graphs and plots with [Matplotlib](http://matplotlib.sourceforge.net/), a Python visualization library.
+And it draws its graphs and plots with [Chaco](http://code.enthought.com/chaco/), a Python visualization library.
 
 # Philosophy #
 

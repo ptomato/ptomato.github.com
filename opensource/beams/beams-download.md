@@ -7,7 +7,7 @@ github-name: Beams
 ---
 
 <p class="callout">
-  Download the <strong>Beams</strong> package: <a class="source-download" href="/downloads/Beams-20120216.zip">Beams-20120216.zip</a>
+  Download the <strong>Beams</strong> package: <a class="source-download" href="/downloads/Beams-20120725.zip">Beams-20120725.zip</a>
 </p>
 
 # The camera #
@@ -39,8 +39,7 @@ Here is what you do:
 
 ## Windows ##
 
-* Download and install a Python distribution, such as [EPD Free](http://enthought.com/products/epd_free.php). <span class="note">This distribution must include NumPy, SciPy, and Matplotlib.</span>
-* Download and install the [PyGTK All-in-one installer](pygtk).
+* Download and install a Python distribution, such as [EPD Free](http://enthought.com/products/epd_free.php). <span class="note">This distribution must include NumPy, SciPy, Traits, and Chaco.</span>
 * Download and install [VideoCapture](http://videocapture.sourceforge.net/) if you want to use the DirectShow plugin.
 * Download and install [OpenCV](http://opencv.willowgarage.com/wiki/InstallGuide) if you want to use the OpenCV plugin. <span class="note">You probably don't.</span>
 * Extract the **Beams** package into a folder of your choice.
@@ -49,11 +48,14 @@ Here is what you do:
 ## Linux ##
 
 * Python is almost certainly already installed. <span class="note">If not, install it with your package manager.</span>
-* If you are running a graphical desktop, then PyGTK is probably already installed too. <span class="note">If not, install it with your package manager.</span>
-* Install your distribution's packages of NumPy, SciPy, Matplotlib, and OpenCV with your package manager.
+{% comment %}* If you are running a graphical desktop, then PyGTK is probably already installed too. <span class="note">If not, install it with your package manager.</span>{% endcomment %}
+* Install your distribution's packages of NumPy, SciPy, Traits, Chaco, and OpenCV with your package manager.
 * Extract the **Beams** package into a directory of your choice.
 * To start the program, run the <span class="file">Beams/src/MainWindow.py</span> script.
 
 ## Mac ##
 
-I don't know.
+* Download and install a Python distribution, such as [EPD Free](http://enthought.com/products/epd_free.php). <span class="note">This distribution must include NumPy, SciPy, Traits, and Chaco.</span>
+* Download and install [OpenCV](http://opencv.willowgarage.com/wiki/InstallGuide).
+* Extract the **Beams** package into a folder of your choice.
+* To start the program, run the <span class="file">Beams/src/MainWindow.py</span> script.
