@@ -32,7 +32,7 @@ articles:
     number: 22
     pages: 3775-3777
     doi: 10.1364/OL.35.003775
-    cited: 0
+    cited: 2
   - authors:
     - Chimento, Philip F.
     - Kuzmin, Nikolay V.
@@ -47,7 +47,20 @@ articles:
     number: 24
     pages: 24219-24227
     doi: 10.1364/OE.19.024219
-    cited: 2
+    cited: 5
+  - authors:
+    - Chimento, Philip F.
+    - Alkemade, Paul F. A.
+    - ’t Hooft, Gert W.
+    - Eliel, Eric R.
+    year: 2012
+    title: Optical angular momentum conversion in a nanoslit
+    journal: Optics Letters
+    issue: 37
+    number: 23
+    pages: 4946-4948
+    doi: 10.1364/OL.37.004946
+    cited: 0
 proceedings:
   - authors:
     - Chimento, Philip F.
