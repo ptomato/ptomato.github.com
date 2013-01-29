@@ -47,7 +47,7 @@ articles:
     number: 24
     pages: 24219-24227
     doi: 10.1364/OE.19.024219
-    cited: 5
+    cited: 7
   - authors:
     - Chimento, Philip F.
     - Alkemade, Paul F. A.
