@@ -47,7 +47,7 @@ articles:
     number: 24
     pages: 24219-24227
     doi: 10.1364/OE.19.024219
-    cited: 8
+    cited: 9
   - authors:
     - Chimento, Philip F.
     - Alkemade, Paul F. A.
@@ -60,7 +60,7 @@ articles:
     number: 23
     pages: 4946-4948
     doi: 10.1364/OL.37.004946
-    cited: 0
+    cited: 2
 proceedings:
   - authors:
     - Chimento, Philip F.
@@ -247,6 +247,15 @@ posters:
     venue: 5th International Conference on Surface Plasmon Photonics
     date: May 15-20, 2011
     place: Busan, South Korea
+  - authors:
+    - Chimento, Philip F.
+    - ’t Hooft, Gert W.
+    - Eliel, Eric R.
+    year: 2013
+    title: Anomalous surface plasmon dispersion in aluminum
+    venue: Physics@FOM 2013
+    date: January 22-23, 2013
+    place: Veldhoven, Netherlands
 ---
 
 This is a list of my scientific publications and conference contributions.
