@@ -20,7 +20,7 @@ articles:
     number: 9
     pages: 1229-1233
     doi: 10.1002/jrs.2267
-    cited: 8
+    cited: 10
   - authors:
     - Chimento, Philip F.
     - ’t Hooft, Gert W.
@@ -32,7 +32,7 @@ articles:
     number: 22
     pages: 3775-3777
     doi: 10.1364/OL.35.003775
-    cited: 2
+    cited: 1
   - authors:
     - Chimento, Philip F.
     - Kuzmin, Nikolay V.
@@ -47,7 +47,7 @@ articles:
     number: 24
     pages: 24219-24227
     doi: 10.1364/OE.19.024219
-    cited: 9
+    cited: 11
   - authors:
     - Chimento, Philip F.
     - Alkemade, Paul F. A.
@@ -60,7 +60,20 @@ articles:
     number: 23
     pages: 4946-4948
     doi: 10.1364/OL.37.004946
-    cited: 2
+    cited: 4
+  - authors:
+    - Chimento, Philip F.
+    - Alkemade, Paul F. A.
+    - ’t Hooft, Gert W.
+    - Eliel, Eric R.
+    year: 2013
+    title: Optical angular momentum conversion in a nanoslit: reply
+    journal: Optics Letters
+    issue: 38
+    number: 19
+    pages: 3891
+    doi: 10.1364/OL.38.003891
+    cited: 0
 proceedings:
   - authors:
     - Chimento, Philip F.
