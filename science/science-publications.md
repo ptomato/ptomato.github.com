@@ -67,7 +67,7 @@ articles:
     - ’t Hooft, Gert W.
     - Eliel, Eric R.
     year: 2013
-    "title: Optical angular momentum conversion in a nanoslit: reply"
+    title: Optical angular momentum conversion in a nanoslit&#58; reply
     journal: Optics Letters
     issue: 38
     number: 19
