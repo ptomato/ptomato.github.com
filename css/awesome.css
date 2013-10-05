@@ -239,6 +239,13 @@ a.figure:hover {
 	background-image: url('/images/header.jpg');
 }
 
+.header.front {
+	margin: 0 0 10px 0;
+	-webkit-box-shadow: 0 5px 2px rgba(0, 0, 0, .2);
+	-moz-box-shadow: 0 5px 2px rgba(0, 0, 0, .2);
+	box-shadow: 0 5px 2px rgba(0, 0, 0, .2);
+}
+
 .menu {
 	text-align: center;
 	background-color: #204a78;
