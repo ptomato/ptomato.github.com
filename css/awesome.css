@@ -25,17 +25,21 @@ p {
 }
 
 h1 {
-	font-family: 'Droid Serif', georgia, times, serif;
+	font-family: 'Open Sans', 'Droid Sans', verdana, sans-serif;
+	font-weight: 700;
 	color: #2e3436; /* aluminum6 */
 	font-size: 2em;
 	margin: 0;
+	text-align: left;
 }
 
 h2 {
-	font-family: 'Droid Serif', georgia, times, serif;
+	font-family: 'Open Sans', 'Droid Sans', verdana, sans-serif;
+	font-weight: 700;
 	color: #2e3436; /* aluminum6 */
 	font-size: 1.5em;
 	margin: 0;
+	text-align: left;
 }
 
 li {
@@ -92,6 +96,15 @@ h1.bigparagraph {
 .item-right {
 	margin: 1em 0 0 auto;
 	text-align: right;
+}
+
+/* Specific to front page */
+.item-right h2 {
+	text-align: right;
+}
+.item-left a.button,
+.item-right a.button {
+	margin-left: 0.5em;
 }
 
 .box {
