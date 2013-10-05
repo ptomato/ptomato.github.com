@@ -20,22 +20,22 @@ a:hover {
 	text-decoration: underline;
 }
 
+p {
+	-webkit-margin-before: 0;
+}
+
 h1 {
 	font-family: 'Droid Serif', georgia, times, serif;
-	display: inline;
-	color: #4e9a06; /* chameleon3 */
-	line-height: 2;
-	border-bottom: 3px solid #8ae234; /* chameleon1 */
-	font-size: 1.4em;
+	color: #2e3436; /* aluminum6 */
+	font-size: 2em;
+	margin: 0;
 }
 
 h2 {
 	font-family: 'Droid Serif', georgia, times, serif;
-	font-weight: normal;
-	display: inline;
-	color: #4e9a06; /* chameleon3 */
-	border-bottom: 3px solid #8ae234; /* chameleon1 */
-	font-size: 1.2em;
+	color: #2e3436; /* aluminum6 */
+	font-size: 1.5em;
+	margin: 0;
 }
 
 li {
@@ -76,18 +76,20 @@ sup, sub {
 	font-size: 1.3em;
 }
 
+h1.bigparagraph {
+	font-size: 2.5em;
+}
+
 .firstbig > p:first-child {
 	font-size: 1.3em;
 }
 
 .item-left {
-	width: 80%;
 	margin: 1em auto 0 0;
 	text-align: left;
 }
 
 .item-right {
-	width: 80%;
 	margin: 1em 0 0 auto;
 	text-align: right;
 }
