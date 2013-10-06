@@ -2,7 +2,6 @@
 layout: github
 section: REP
 title: Home
-menu_pages: ['Home', 'Info']
 github-name: REP-instrumentation
 use-syntax-highlighting: yes
 ---

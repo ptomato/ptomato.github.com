@@ -2,7 +2,7 @@
 layout: github
 section: Beams
 title: Screenshots
-menu_pages: ['Home', 'Info', 'Screenshots', 'Download']
+menu_pages: ['Home', 'Screenshots', 'Download']
 github-name: Beams
 ---
 **Beams** in action on a Mac:

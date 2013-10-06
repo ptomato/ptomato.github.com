@@ -2,19 +2,59 @@
 layout: github
 section: Beams
 title: Home
-menu_pages: ['Home', 'Info', 'Screenshots', 'Download']
+menu_pages: ['Home', 'Screenshots', 'Download']
 github-name: Beams
 ---
-**Beams** is a camera program for scientists and engineers who work with lasers.
+<p class="bigparagraph">
+<strong>Beams</strong> is a camera program for scientists and engineers who work with lasers.
+</p>
 
-I developed **Beams** in a quick-and-dirty, incremental way, **in the lab.**
-Anytime I needed to do a particular measurement, I added that capability to **Beams.**
-This means it's immensely practical, because every time some part of the program gets in my way, **I fix it.**
+I developed **Beams** in a quick-and-dirty, incremental way, in the lab.
+Anytime I needed to do a particular measurement, I added that capability.
+This means it's immensely practical for lab work, because every time some part of the program got in my way, I fixed it.
+It is a **work in progress**, but I figured I'd share it instead of keeping it to myself.
 
-**Beams** is **under construction**, but I figured I'd share it instead of keeping it to myself.
+# Features #
 
-{% include twitter.html %}
+**Beams** supports any camera that works with DirectShow (on Windows) or OpenCV (cross-platform.)
+This means almost all webcams and several other high-quality CCDs.
+In addition, it supports the Apogee Alta U1 on Windows if the driver is installed.
+It's easy to add support for any camera by writing a camera plugin.
 
-<div class="bigbutton-area">
-  <a class="button bigbutton graybutton" href="beams-download.html">Try it out</a>
-</div>
+With Beams, you can:
+- Show the location of the beam centroid
+- Calculate the minimum and maximum pixel value of each frame
+- Calculate a Gaussian fit on the fly (beam profiling)
+- Calibrate to a dark frame
+- Save video stills as PNG images
+- Switch between cameras while the program is running
+- Get an alert when there's a large difference between one video frame and the next
+- Rotate the frame if you had to mount your camera upside down (I did)
+
+# Future plans #
+
+- Summing and averaging frames
+- Histograms
+- View a cross section of the beam
+- Specify a pixel size for beam profiling in micrometers
+
+# Technologies #
+
+**Beams** is written in [Python](http://www.python.org/) using the [Traits](http://code.enthought.com/projects/traits/) user interface library.
+It talks to cameras using [OpenCV](http://opencv.willowgarage.com/wiki/), an open-source image recognition library, and [VideoCapture](http://videocapture.sourceforge.net/), a Python wrapper around Windows' DirectShow.
+It calculates using [NumPy](http://numpy.scipy.org/) and [SciPy](http://www.scipy.org/), two libraries for fast numerical and scientific computation.
+And it draws its graphs and plots with [Chaco](http://code.enthought.com/chaco/), a Python visualization library.
+
+# Philosophy #
+
+**Beams** originally started life as a LabVIEW program, then one weekend I rewrote it in Python, as part of my ongoing effort to use only open source software in publicly-funded research.
+For example, many lab cameras come bundled with their own software.
+It is impossible to tell how your data have been manipulated or calibrated before they reach the screen.
+
+As a particularly bad example, take the Spiricon beam profiler, which I don't use anymore.
+Its software uses a calibration process called “Ultracal” which is patented and secret.
+If you do a measurement on the Spiricon using Ultracal, _you have no way of knowing what you are actually measuring._
+In effect, you are releasing research data to the public, paid for with public money, but your research method is undisclosed and kept secret by a private company.
+(Even though they have no financial interest in doing so: they've already sold you the camera!)
+
+I don't think that's acceptable.
