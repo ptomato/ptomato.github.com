@@ -5,5 +5,5 @@ menu_pages: ['Projects', 'What Is...?', 'Publications']
 title: Plasmonic quarter-wave plate
 image: poincare.png
 ---
-The suprising phenomenon that a subwavelength slit in a metal film can act as a quarter-wave plate was an accidental discovery.
+The suprising phenomenon that a subwavelength slit in a metal film can act as a quarter-wave plate was an accidental discovery by my co-worker Nikolay Kuzmin.
 I researched this phenomenon and developed an intuitive model explaining it.
