@@ -4,10 +4,16 @@ section: Beams
 title: Download
 menu_pages: ['Home', 'Screenshots', 'Download']
 github-name: Beams
+beams-version: 0.9.rc3
 ---
 
 <p class="callout">
-  Download the <strong>Beams</strong> package: <a class="source-download" href="/downloads/Beams-20130924.zip">Beams-20130924.zip</a>
+  Download the <strong>Beams</strong> package: <a class="source-download" href="/downloads/Beams-{{ page.beams-version }}.zip">Beams-{{ page.beams-version }}.zip</a>
+</p>
+<p class="callout">
+  Installer for Windows: <a class="windows-download" href="/downloads/Beams-{{ page.beams-version }}.win32.exe">Beams-{{ page.beams-version }}.win32.exe</a>
+  (<strong>IMPORTANT!</strong>
+  You have to install some other things before this will work: see below.)
 </p>
 
 # The camera #
@@ -31,7 +37,8 @@ It's important to prevent dust from getting on the CCD chip.
 
 # The software #
 
-There's no installer for Beams, since I haven't yet found a need to install it on any other computer than my lab computer.
+There's no nice one-click installer for Beams.
+I'm truly sorry that you have to go through some fuss to install it, and I would welcome suggestions on how to make a one-click installer for Windows especially.
 At some point, you will find the installer on this page.
 
 Until then, things require a little bit of patience.
@@ -40,21 +47,24 @@ Here is what you do:
 ## Windows ##
 
 * Download and install a Python distribution, such as [Canopy Express](https://enthought.com/products/canopy/#/limited). <span class="note">This distribution must include NumPy, SciPy, Traits, and Chaco.</span>
+* Download and install [PYXDG](/downloads/pyxdg-0.19.win32.exe). <span class="note">I've provided an installer that should work, but if you're Python-savvy, you probably want to do <code>pip install pyxdg</code> instead.</span>
 * Download and install [VideoCapture](http://videocapture.sourceforge.net/) if you want to use the DirectShow plugin.
 * Download and install [OpenCV](http://opencv.willowgarage.com/wiki/InstallGuide) if you want to use the OpenCV plugin. <span class="note">You probably don't.</span>
-* Extract the Beams package into a folder of your choice.
-* To start the program, go to that folder in Explorer, then go to the <span class="file">src</span> folder, and double-click on <span class="file">MainWindow.py</span>.
+* Now, you can download the [Beams installer](/downloads/Beams-{{ page.beams-version }}.win32.exe) and run it.
+* Search for "beams" in your Start menu or open a command prompt and type <code>beams</code>.
 
 ## Linux ##
 
 * Python is almost certainly already installed. <span class="note">If not, install it with your package manager.</span>
 * Install your distribution's packages of NumPy, SciPy, Traits, Chaco, and OpenCV with your package manager.
 * Extract the Beams package into a directory of your choice.
-* To start the program, run the <span class="file">Beams/src/MainWindow.py</span> script.
+* Change to that directory in your terminal and run <code>python setup.py install</code>.
+* To start the program, run <code>beams</code> in your terminal.
 
 ## Mac ##
 
 * Download and install a Python distribution, such as [Canopy Express](https://enthought.com/products/canopy/#/limited). <span class="note">This distribution must include NumPy, SciPy, Traits, and Chaco.</span>
 * Download and install [OpenCV](http://opencv.willowgarage.com/wiki/InstallGuide).
 * Extract the Beams package into a folder of your choice.
-* To start the program, run the <span class="file">Beams/src/MainWindow.py</span> script.
+* Change to that folder in your terminal and run <code>python setup.py install</code>.
+* To start the program, run <code>beams</code> in your terminal.
