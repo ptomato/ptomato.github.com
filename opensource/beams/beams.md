@@ -9,9 +9,10 @@ github-name: Beams
 <strong>Beams</strong> is a camera program for scientists and engineers who work with lasers.
 </p>
 
+Commercial laser beam profilers are expensive although they perform fairly simple calculations and often have horrible user interfaces.
+An open-source solution designed for inexpensive hardware benefits optics researchers, engineers, and hobbyists everywhere.
+
 I developed **Beams** in a quick-and-dirty, incremental way, in the lab.
-Anytime I needed to do a particular measurement, I added that capability.
-This means it's immensely practical for lab work, because every time some part of the program got in my way, I fixed it.
 It is a **work in progress**, but I figured I'd share it instead of keeping it to myself.
 
 # Testimonials #
