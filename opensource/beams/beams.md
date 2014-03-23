@@ -14,6 +14,18 @@ Anytime I needed to do a particular measurement, I added that capability.
 This means it's immensely practical for lab work, because every time some part of the program got in my way, I fixed it.
 It is a **work in progress**, but I figured I'd share it instead of keeping it to myself.
 
+# Testimonials #
+
+I don't know if this counts as a testimonial, but there are actual scientists (who are not me) who have published work in which they used Beams.
+**Scientists, you are awesome, thank you!**
+
+If you used Beams in your scholarly work, please let me know, and I'll link your paper here.
+
+- Askes, S. H. C., Bahreman, A., & Bonnet, S. (2013).
+  Activation of a photodissociative ruthenium complex by triplet-triplet annihilation upconversion in liposomes.
+  _Angewandte Chemie 53_ (4), pp. 1029-1033.
+  [doi:10.1002/anie.201309389](http://dx.doi.org/10.1002/anie.201309389)
+
 # Features #
 
 **Beams** supports any camera that works with DirectShow (on Windows) or OpenCV (cross-platform.)
