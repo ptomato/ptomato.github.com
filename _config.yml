@@ -1,6 +1,6 @@
 source: .
 destination: ./_site
 title: Philip Chimento
-pygments: true
+highlighter: pygments
 permalink: none
 safe: true
