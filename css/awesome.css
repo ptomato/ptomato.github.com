@@ -245,7 +245,7 @@ a.figure:hover {
 	font-family: 'Open Sans', 'Droid Sans', verdana, sans-serif;
 	padding: 1em 0 0.3em 1em;
 	font-weight: bold;
-	font-size: 60px;
+	font-size: 4em;
 	letter-spacing: -0.03em;
 	color: white;
 	background: black;
@@ -328,7 +328,7 @@ a.figure:hover {
 
 .content {
 	padding-bottom: 4em;
-	width: 48em;
+	max-width: 48em;
 	margin: 2em auto 0;
 	text-align: justify;
 }
