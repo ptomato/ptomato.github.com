@@ -61,11 +61,11 @@ Here is what you do:
 * Change to that directory in your terminal and run <code>python setup.py install</code>.
 * To start the program, run <code>beams</code> in your terminal.
 
-**Note for Ubuntu and Debian users**
-> Due to a bug in Debian and Ubuntu's version of Chaco, Beams won't work as is.
-> You need to install <a class="source-download" href="/downloads/python-enable_4.3.0-2.1_amd64.deb">this package</a>.
-> It should work on a 64-bit OS.
-> If you need 32 bits or it doesn't install for you, please contact me.
+**Note for Ubuntu and Debian users:**
+Due to a bug in Debian and Ubuntu's version of Chaco, Beams won't work as is.
+You need to install <a class="source-download" href="/downloads/python-enable_4.3.0-2.1_amd64.deb">this package</a>.
+It should work on a 64-bit OS.
+If you need 32 bits or it doesn't install for you, please contact me.
 
 ## Mac ##
 
