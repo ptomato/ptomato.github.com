@@ -35,6 +35,7 @@ In addition, it supports the Apogee Alta U1 on Windows if the driver is installe
 It's easy to add support for any camera by writing a camera plugin.
 
 With Beams, you can:
+
 - Show the location of the beam centroid
 - Calculate the minimum and maximum pixel value of each frame
 - Calculate a Gaussian fit on the fly (beam profiling)
