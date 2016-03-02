@@ -60,7 +60,7 @@ articles:
     number: 23
     pages: 4946-4948
     doi: 10.1364/OL.37.004946
-    cited: 9
+    cited: 10
   - authors:
     - Chimento, Philip F.
     - Alkemade, Paul F. A.
