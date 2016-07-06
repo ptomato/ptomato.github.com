@@ -52,7 +52,7 @@ Here is what you do:
 * Enter the environment with `activate beams`.
 * Install PyXDG with `pip install pyxdg`.
 * Download and install [VideoCapture](http://videocapture.sourceforge.net/) if you want to use the DirectShow plugin.
-* Install OpenCV with `conda install opencv` if you want to use the OpenCV plugin. <span class="note">If you're already using the DirectShow plugin, then you probably don't.</span>
+* Install OpenCV with `conda install opencv` if you want to use the OpenCV plugin. <span class="note">If you're already using the DirectShow plugin, then you probably don't. If this package doesn't work, the alternative package `conda install -c clinicalgraphics opencv=2.4.9.1` might.</span>
 * Now, you can download the [Beams wheel package](/downloads/Beams-{{ page.beams-version }}-py2-none-any.whl) and install it with `pip install C:\path\where\you\downloaded\Beams-{{ page.beams-version }}-py2-none-any.whl`.
 
 ## Linux / Mac ##
