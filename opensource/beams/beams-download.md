@@ -4,14 +4,14 @@ section: Beams
 title: Download
 menu_pages: ['Home', 'Screenshots', 'Download']
 github-name: Beams
-beams-version: 0.9rc4
+beams-version: 0.9rc5
 ---
 
 <p class="callout">
-  Download the <strong>Beams</strong> package: <a class="source-download" href="/downloads/Beams-{{ page.beams-version }}.tar.gz">Beams-{{ page.beams-version }}.tar.gz</a>
+  Download the <strong>Beams</strong> package: <a class="source-download" href="https://github.com/ptomato/Beams/releases/download/{{ page.beams-version }}/Beams-{{ page.beams-version }}.tar.gz">Beams-{{ page.beams-version }}.tar.gz</a>
 </p>
 <p class="callout">
-  Wheel package: <a class="source-download" href="/downloads/Beams-{{ page.beams-version }}-py2-none-any.whl">Beams-{{ page.beams-version }}-py2-none-any.whl</a>
+  Wheel package: <a class="source-download" href="https://github.com/ptomato/Beams/releases/download/{{ page.beams-version }}/Beams-{{ page.beams-version }}-py2-none-any.whl">Beams-{{ page.beams-version }}-py2-none-any.whl</a>
   (<strong>IMPORTANT!</strong>
   You might have to install some other things before this will work: see below.)
 </p>
