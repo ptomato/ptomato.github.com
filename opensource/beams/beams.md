@@ -62,13 +62,15 @@ And it draws its graphs and plots with [Chaco](http://code.enthought.com/chaco/)
 # Philosophy #
 
 **Beams** originally started life as a LabVIEW program, then one weekend I rewrote it in Python, as part of my ongoing effort to use only open source software in publicly-funded research.
+
 For example, many lab cameras come bundled with their own software.
-It is impossible to tell how your data have been manipulated or calibrated before they reach the screen.
-
-As a particularly bad example, take the Spiricon beam profiler, which I don't use anymore.
-Its software uses a calibration process called “Ultracal” which is patented and secret.
-If you do a measurement on the Spiricon using Ultracal, _you have no way of knowing what you are actually measuring._
+With proprietary processing algorithms, it is impossible to tell how your data have been manipulated or calibrated before they reach the screen.
+_You have no way of knowing what you are actually measuring_ even if you might be able to make a good guess.
 In effect, you are releasing research data to the public, paid for with public money, but your research method is undisclosed and kept secret by a private company.
-(Even though they have no financial interest in doing so: they've already sold you the camera!)
+Your research is also potentially not reproducible, except by other researchers who have bought the same equipment from the same company.
 
-I don't think that's acceptable.
+To illustrate that this really happens in published research, we had several Spiricon beam profilers in a university lab where I worked.
+These profilers use a patented calibration process called “Ultracal”, and it's likely that Ultracal had been used in experiments published in journal papers.
+
+For this reason I believe proprietary processing algorithms are unsuitable for peer-reviewed or publicly-funded research.
+That's why Beams exists.
