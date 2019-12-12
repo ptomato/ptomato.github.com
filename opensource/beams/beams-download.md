@@ -46,7 +46,7 @@ Here is what you do:
 
 ## Windows ##
 
-* Download and install [Anaconda](https://www.continuum.io/downloads).
+* Download and install [Anaconda](https://www.anaconda.com/distribution).
 * Open the command prompt.
 * Create an environment for Beams with `conda create -n beams python=2.7 scipy chaco=4.4.1`.
 * Enter the environment with `activate beams`.
@@ -57,7 +57,7 @@ Here is what you do:
 
 ## Linux / Mac ##
 
-* Download and install [Anaconda](https://www.continuum.io/downloads).
+* Download and install [Anaconda](https://www.anaconda.com/distribution).
 * Open a terminal.
 * Create an environment for Beams with `conda create -n beams python=2.7 scipy chaco=4.4.1 opencv`.
 * Enter the environment with `source activate beams`.
