@@ -9,13 +9,13 @@ use-syntax-highlighting: yes
 # Download #
 
 <p class="callout">
-    Download <strong>Jasmine GJS</strong> version 2.2.1:<br/>
-    <a class="source-download" href="/downloads/jasmine-gjs-2.2.1.tar.xz">Source Code</a> &bull;
+    Download <strong>Jasmine GJS</strong> version 2.3.0:<br/>
+    <a class="source-download" href="/downloads/jasmine-gjs-2.3.0.tar.xz">Source Code</a> &bull;
     <a class="source-download" href="http://software.opensuse.org/download/package?project=home:ptomato&amp;package=jasmine-gjs">Linux Packages</a>
 </p>
 
-Jasmine GJS requires a relatively recent version of GJS: version 1.40 or later.
-That is, at least GNOME 3.12, which you can get on Fedora 21, Ubuntu 14.04, OpenSUSE 13.2, Debian Jessie, or many other Linux distributions.
+Jasmine GJS requires a relatively recent version of GJS: version 1.58 or later.
+That is, at least GNOME 3.32, which you can get on Fedora 30, Ubuntu 19.04, OpenSUSE 15.2, Debian Bullseye, or many other Linux distributions.
 
 # Documentation #
 
