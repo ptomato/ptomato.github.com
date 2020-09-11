@@ -9,8 +9,8 @@ use-syntax-highlighting: yes
 # Download #
 
 <p class="callout">
-    Download <strong>Jasmine GJS</strong> version 2.4.1:<br/>
-    <a class="source-download" href="/downloads/jasmine-gjs-2.4.1.tar.xz">Source Code</a> &bull;
+    Download <strong>Jasmine GJS</strong> version 2.5.2:<br/>
+    <a class="source-download" href="/downloads/jasmine-gjs-2.5.2.tar.xz">Source Code</a> &bull;
     <a class="source-download" href="http://software.opensuse.org/download/package?project=home:ptomato&amp;package=jasmine-gjs">Linux Packages</a>
 </p>
 
